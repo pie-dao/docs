@@ -4,6 +4,7 @@
 
 ## Pie DAO
 
+* [Connecting Metamask](pie-dao/connecting-metamask.md)
 * [Joining](pie-dao/dough.md)
 * [Calling a Vote](pie-dao/calling-a-vote.md)
 * [Participating in a Vote](pie-dao/participating-in-a-vote.md)
