@@ -13,9 +13,11 @@ description: >-
 
 Minting of new DOUGH takes place when a wallet pledges ETH to the DAO, and existing DOUGH holders vote to approve the offer. When a vote succeeds, a transfer is initiated, sending the offered assets to Pie DAO's vault. Upon receipt, the DAO mints the requested DOUGH into the proposing wallet.
 
+For a detailed tutorial, check out: [https://medium.com/piedao/dough-token-request-tutorial-6fdc633994f6](https://medium.com/piedao/dough-token-request-tutorial-6fdc633994f6)
+
 ## Can I trade it?
 
-No. At the moment, DOUGH is locked in the original purchaser's account and cannot be sold or traded. When Staking is released, DOUGH can be migrated to a new free-floating token. 
+No. At the moment, DOUGH is locked in the original purchaser's account and cannot be sold or traded. When Staking is released, DOUGH can be migrated to a new free-floating token.
 
 ## Can I get my money back?
 
