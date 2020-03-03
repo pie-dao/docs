@@ -41,7 +41,7 @@ That's it. When the transaction is confirmed, you have submitted your request. I
 
 ![](../.gitbook/assets/step-5-done.png)
 
-Once started, a vote takes approximately three days \(72 hours for the vote plus a 12 hour cooldown period\). If your request is approved, your tokens will be minted directly to your wallet.
+Once started, a vote takes three and a half days \(72 hours for the vote plus a 12 hour cooldown period\). If your request is approved, your tokens will be minted directly to your wallet.
 
 ## What if I've changed my mind?
 
