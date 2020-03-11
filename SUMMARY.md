@@ -25,3 +25,8 @@
 * [What is Governance?](frequently-asked-questions-1/what-is-governance.md)
 * [What is a Stablecoin?](frequently-asked-questions-1/what-is-a-stablecoin.md)
 
+## Development Resources
+
+* [Getting Started](development-resources/getting-started.md)
+* [Frontend Template](development-resources/frontend-template.md)
+
