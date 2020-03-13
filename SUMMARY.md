@@ -29,4 +29,5 @@
 
 * [Getting Started](development-resources/getting-started.md)
 * [Frontend Template](development-resources/frontend-template.md)
+* [Styling](development-resources/styling.md)
 
