@@ -39,6 +39,10 @@ When you're happy with your amounts, click 'Create Request' and sign the resulti
 
 That's it. When the transaction is confirmed, you have submitted your request. It is now up to the DAO members to initiate a vote and approve or decline the Token Request you just created. 
 
+{% hint style="info" %}
+If you request less than 1 ETH worth of DOUGH it is highly likely that your request will take a while to make it to a vote.
+{% endhint %}
+
 ![](../.gitbook/assets/step-5-done.png)
 
 Once started, a vote takes three and a half days \(72 hours for the vote plus a 12 hour cooldown period\). If your request is approved, your tokens will be minted directly to your wallet.

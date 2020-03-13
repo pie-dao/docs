@@ -142,6 +142,10 @@ We have a core set of colors, several variants of grey, and a core set of label 
 .bg-label-yellow { background-color: #f8e71c; }  
 .bg-label-yellow-alt { background-color: #ffcd1d; }`
 
+## Spacing
+
+In the default tailwindcss configuration, spacing scale is shared by [padding](https://tailwindcss.com/docs/padding), [margin](https://tailwindcss.com/docs/margin), [width](https://tailwindcss.com/docs/width), and [height](https://tailwindcss.com/docs/height). We extend that to include [min](https://tailwindcss.com/docs/min-width/#app) and [max](https://tailwindcss.com/docs/max-width/#app) width and [min](https://tailwindcss.com/docs/min-height/#app) and [max](https://tailwindcss.com/docs/max-height/#app) height.
+
 ## Overridden tailwindcss classes
 
 The following default tailwindcss classes have been overridden. You should not trust the official documentation for these sections and instead use the values below.
@@ -235,6 +239,15 @@ There are 9 default sizes and 7 mobile sizes. We also provide view window sizes 
 .text-vw18 { font-size: 18vw; }  
 .text-vw19 { font-size: 19vw; }  
 .text-vw20 { font-size: 20vw; }`
+
+### Font weight
+
+We've replaced the default nine weights with only four.
+
+`.font-thin { font-weight: 100; }  
+.font-normal { font-weight: 300; }  
+.font-bold { font-weight: 500; }  
+.font-bolder { font-weight: 700; }`
 
 ## Extended tailwindcss classes
 
