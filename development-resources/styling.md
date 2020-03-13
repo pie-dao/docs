@@ -146,6 +146,10 @@ We have a core set of colors, several variants of grey, and a core set of label 
 
 The following default tailwindcss classes have been overridden. You should not trust the official documentation for these sections and instead use the values below.
 
+### Background color
+
+See the [colors section](https://docs.piedao.org/development-resources/styling#colors) above.
+
 ### Border radius
 
 We've overridden the defaults and added both pixel and percentage values. Pixel values are provided from 1px to 50px. Percentage values are provided from 1% to 100%.
@@ -245,4 +249,18 @@ Percentage classes from 1% to 100% have been added to the [three default backgro
 /* ... */  
 .bg-99pc { background-size: 99%; }  
 .bg-100pc { background-size: 100%; }`
+
+### Border width
+
+The [default border width settings](https://tailwindcss.com/docs/border-width) provide classes for 2px, 4px, and 8px. We added the missing ones in between. These additions exist for both the [all sides](https://tailwindcss.com/docs/border-width#all-sides) classes and the [individual sides](https://tailwindcss.com/docs/border-width#individual-sides) classes.
+
+`.border-0 { border-width: 0; }  
+.border { border-width: 1px; }  
+.border-2 { border-width: 2px; }  
+.border-3 { border-width: 3px; }  
+.border-4 { border-width: 4px; }  
+.border-5 { border-width: 5px; }  
+.border-6 { border-width: 6px; }  
+.border-7 { border-width: 7px; }  
+.border-8 { border-width: 8px; }`
 
