@@ -2,7 +2,7 @@
 
 CSS styling for PieDAO frontend apps uses [tailwindcss](https://tailwindcss.com/docs) as a framework. In addition to the default style options, which are searchable on the [excellent tailwindcss docs site](https://tailwindcss.com/docs), we have included several additional options outlined in this section.
 
-## @media breakpoints
+## Screens \(@media breakpoints\)
 
 We use the following media sizes for responsiveness.
 
@@ -345,6 +345,17 @@ See the [spacing section](https://docs.piedao.org/development-resources/styling#
 ### Padding
 
 See the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above.
+
+### Top / Right / Bottom / Left
+
+We've added a single extra class to the [defaults provided by tailwindcss](https://tailwindcss.com/docs/top-right-bottom-left/#app).
+
+`.inset-1/2 {  
+  top: 50%;  
+  right: 50%;  
+  bottom: 50%;  
+  left: 50%;  
+}`
 
 ### Width
 
