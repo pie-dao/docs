@@ -322,6 +322,10 @@ The [default border width settings](https://tailwindcss.com/docs/border-width) p
 
 See the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above. Height also contains several classes beyond the ones provided by the spacing settings. You can view these on the [tailwindcss documentation](https://tailwindcss.com/docs/height/#app).
 
+### Line height
+
+In addition to the [tailwindcss default line heights](https://tailwindcss.com/docs/line-height/#app), we've included all REM values up to 60rem as described in the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above.
+
 ### Margin
 
 See the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above.
