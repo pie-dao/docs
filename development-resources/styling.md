@@ -146,6 +146,47 @@ We have a core set of colors, several variants of grey, and a core set of label 
 
 In the default tailwindcss configuration, spacing scale is shared by [padding](https://tailwindcss.com/docs/padding), [margin](https://tailwindcss.com/docs/margin), [width](https://tailwindcss.com/docs/width), and [height](https://tailwindcss.com/docs/height). We extend that to include [min](https://tailwindcss.com/docs/min-width/#app) and [max](https://tailwindcss.com/docs/max-width/#app) width and [min](https://tailwindcss.com/docs/min-height/#app) and [max](https://tailwindcss.com/docs/max-height/#app) height.
 
+### REM
+
+REM spacing is relative to the font size of the html element \(which for most browsers is `16px` by default\). As tailwindcss mentions in their [section on the default spacing scale](https://tailwindcss.com/docs/customizing-spacing/#app), one spacing unit is equal to `0.25rem`, which will usually equal `4px`. Tailwind provides intermittent intervals up to `16rem`, we extend that to `60rem` and provide every increment.
+
+`.h-0 { height: 0; }  
+.h-1 { height: 0.25rem; }  
+.h-2 { height: 0.5rem; }  
+.h-3 { height: 0.75rem; }  
+.h-4 { height: 1rem; }  
+/* ... */  
+.h-237 { height: 59.25rem; }  
+.h-238 { height: 59.5rem; }  
+.h-239 { height: 59.75rem; }  
+.h-240 { height: 60rem; }`
+
+### Pixel
+
+Because REM spacing is relative, we also provide pixel values for more exact use cases. Specifically, whole number values from `1px` to `100px`, and by tens from `100px` to `1280px`.
+
+`.w-1px { width: 1px; }  
+.w-2px { width: 2px; }  
+/* ... */  
+.w-99px { width: 99px; }  
+.w-100px { width: 100px; }  
+.w-110px { width: 110px; }  
+.w-120px { width: 120px; }  
+/* ... */  
+.w-1260px { width: 1260px; }  
+.w-1270px { width: 1270px; }  
+.w-1280px { width: 1280px; }`
+
+### Percentage
+
+Classes for values from `1%` to `100%` are also included.
+
+`.p-1pc { padding: 1%; }  
+.p-2pc { padding: 2%; }  
+/* ... */  
+.p-99pc { padding: 99%; }  
+.p-100pc { padding: 100%; }`
+
 ## Overridden tailwindcss classes
 
 The following default tailwindcss classes have been overridden. You should not trust the official documentation for these sections and instead use the values below.
@@ -156,7 +197,7 @@ See the [colors section](https://docs.piedao.org/development-resources/styling#c
 
 ### Border radius
 
-We've overridden the defaults and added both pixel and percentage values. Pixel values are provided from 1px to 50px. Percentage values are provided from 1% to 100%.
+We've overridden the defaults and added both pixel and percentage values. Pixel values are provided from 1px to 50px. Percentage values are provided from `1%` to `100%`.
 
 #### Core
 
@@ -193,7 +234,7 @@ There are two fonts, primary and secondary, that override the [font family confi
 
 ### Font size
 
-There are 9 default sizes and 7 mobile sizes. We also provide view window sizes from values 1 to 20.
+There are nine default sizes and seven mobile sizes. We also provide view window sizes from values `1` to `20`.
 
 #### Default
 
@@ -255,7 +296,7 @@ The following sections has additions beyond the tailwindcss default values. All 
 
 ### Background size
 
-Percentage classes from 1% to 100% have been added to the [three default background size classes](https://tailwindcss.com/docs/background-size/#app).
+Percentage classes from `1%` to `100%` have been added to the [three default background size classes](https://tailwindcss.com/docs/background-size/#app).
 
 `.bg-1pc { background-size: 1%; }  
 .bg-2pc { background-size: 2%; }  
@@ -265,7 +306,7 @@ Percentage classes from 1% to 100% have been added to the [three default backgro
 
 ### Border width
 
-The [default border width settings](https://tailwindcss.com/docs/border-width) provide classes for 2px, 4px, and 8px. We added the missing ones in between. These additions exist for both the [all sides](https://tailwindcss.com/docs/border-width#all-sides) classes and the [individual sides](https://tailwindcss.com/docs/border-width#individual-sides) classes.
+The [default border width settings](https://tailwindcss.com/docs/border-width) provide classes for `2px`, `4px`, and `8px`. We added the missing ones in between. These additions exist for both the [all sides](https://tailwindcss.com/docs/border-width#all-sides) classes and the [individual sides](https://tailwindcss.com/docs/border-width#individual-sides) classes.
 
 `.border-0 { border-width: 0; }  
 .border { border-width: 1px; }  
@@ -276,4 +317,36 @@ The [default border width settings](https://tailwindcss.com/docs/border-width) p
 .border-6 { border-width: 6px; }  
 .border-7 { border-width: 7px; }  
 .border-8 { border-width: 8px; }`
+
+### Height
+
+See the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above. Height also contains several classes beyond the ones provided by the spacing settings. You can view these on the [tailwindcss documentation](https://tailwindcss.com/docs/height/#app).
+
+### Margin
+
+See the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above.
+
+### Max-Height
+
+See the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above. Height also contains several classes beyond the ones provided by the spacing settings. You can view these on the [tailwindcss documentation](https://tailwindcss.com/docs/max-height/#app).
+
+### Max-Width
+
+See the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above. Height also contains many classes beyond the ones provided by the spacing settings. You can view these on the [tailwindcss documentation](https://tailwindcss.com/docs/max-width/#app).
+
+### Min-Height
+
+See the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above. Height also contains several classes beyond the ones provided by the spacing settings. You can view these on the [tailwindcss documentation](https://tailwindcss.com/docs/min-height/#app).
+
+### Min-Width
+
+See the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above. Height also contains several classes beyond the ones provided by the spacing settings. You can view these on the [tailwindcss documentation](https://tailwindcss.com/docs/min-width/#app).
+
+### Padding
+
+See the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above.
+
+### Width
+
+See the [spacing section](https://docs.piedao.org/development-resources/styling#spacing) above. Width also contains many class beyond the ones provided by the spacing settings. You can view these on the [tailwindcss documentation](https://tailwindcss.com/docs/width/#app).
 
