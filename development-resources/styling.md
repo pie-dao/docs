@@ -1,6 +1,6 @@
 # Styling
 
-CSS styling for PieDAO frontend apps uses [tailwindcss](https://tailwindcss.com/docs) as a framework. In addition to the default style options, which are searchable on the [excellent tailwindcss docs site](https://tailwindcss.com/docs), we have included several additional options outlined in this section.
+[https://github.com/pie-dao/tailwind/blob/master/src/utilities/content.js](https://github.com/pie-dao/tailwind/blob/master/src/utilities/content.js)CSS styling for PieDAO frontend apps uses [tailwindcss](https://tailwindcss.com/docs) as a framework. In addition to the default style options, which are searchable on the [excellent tailwindcss docs site](https://tailwindcss.com/docs), we have included several additional options outlined in this section.
 
 ## Screens \(@media breakpoints\)
 
@@ -202,6 +202,22 @@ This class provides our standard button styling. It is not scoped to the `<butto
 ![   standard                       disabled](../.gitbook/assets/btn.png)
 
 ## Utilities
+
+These classes can be used with `@apply`. More details about utilities and creating your own can be found in the [tailwindcss docs](https://tailwindcss.com/docs/adding-new-utilities).
+
+### .content
+
+This class provides the core styles for a component's container. The full style provided can be seen at the [Github repo](https://github.com/pie-dao/tailwind/blob/master/src/utilities/content.js) for [`@pie-dao/tailwind`](https://docs.piedao.org/development-resources/getting-started#pie-dao-tailwind).
+
+`.header-container {  
+  @apply content font-secondary;  
+}`
+
+### .pointer
+
+This class is the same as [`.cursor-pointer`](https://tailwindcss.com/docs/cursor/#app). We use it often enough that a shorthand version was desired.
+
+`.pointer { cursor: pointer; }`
 
 ## Overridden tailwindcss classes
 
