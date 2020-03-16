@@ -12,15 +12,21 @@ We use the following media sizes for responsiveness.
 * xl: 1200px
 * xxl: 1600px
 
-When creating your base style, use a "smallest first" approach. Your style sheet should define how elements will look at 640px width. Individual styles can be overridden in the JSX DOM by prefixing a screen size to the class name. 
+When creating your base style, use a "smallest first" approach. Your style sheet should define how elements will look at 480px width \(the implied smallest width\). Individual styles can be overridden by using a [`@media <size> { ... }`](https://tailwindcss.com/docs/functions-and-directives/#screen) block. 
 
 `/* Stylesheet */  
 div.label {  
   @apply w-100pc bg-blue rounded;  
+}  
+  
+@screen lg {  
+  div.label {  
+    @apply w-80px;  
+  }  
 }`
 
 `<!-- DOM -->  
-<div className="label lg:w-80pc">...</div>`\`\`\`
+<div className="label">...</div>`\`\`\`
 
 In the example above, the `div` would always have a blue background and rounded edges. It would be 100 percent width until the screen is 960px wide or more, at which point it would decrease to 80 percent width.
 
@@ -186,6 +192,16 @@ Classes for values from `1%` to `100%` are also included.
 /* ... */  
 .p-99pc { padding: 99%; }  
 .p-100pc { padding: 100%; }`
+
+## Components
+
+### .btn
+
+This class provides our standard button styling. It is not scoped to the `<button>` element. The full style provided can be seen at the [Github repo](https://github.com/pie-dao/tailwind/blob/master/src/components/btn.js) for [`@pie-dao/tailwind`](https://docs.piedao.org/development-resources/getting-started#pie-dao-tailwind).
+
+![   standard                       disabled](../.gitbook/assets/btn.png)
+
+## Utilities
 
 ## Overridden tailwindcss classes
 
