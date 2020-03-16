@@ -201,6 +201,12 @@ This class provides our standard button styling. It is not scoped to the `<butto
 
 ![   standard                       disabled](../.gitbook/assets/btn.png)
 
+### .overlay
+
+Provides a 90% transparent overlay class and a class for the close button. The full style can be seen at the [Github repo](https://github.com/pie-dao/tailwind/blob/master/src/components/overlay.js) for [@pie-dao/tailwind](https://docs.piedao.org/development-resources/getting-started#pie-dao-tailwind). A sample implementation can be seen in the [Header component](https://github.com/pie-dao/frontend-template/blob/master/src/components/Header.jsx#L47) of the [frontend-template repository](https://github.com/pie-dao/frontend-template).
+
+![mobile navigation menu](../.gitbook/assets/screenshot-from-2020-03-17-00-52-54.png)
+
 ## Utilities
 
 These classes can be used with `@apply`. More details about utilities and creating your own can be found in the [tailwindcss docs](https://tailwindcss.com/docs/adding-new-utilities).
