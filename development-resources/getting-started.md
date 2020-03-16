@@ -19,6 +19,8 @@ All PieDAO NPM packages are publishing on [npmjs.com](https://npmjs.com) under t
 
 This package provides the [tailwindcss](https://tailwindcss.com) plugin used by the PieDAO [frontend-template repo](https://github.com/pie-dao/frontend-template). Including it in your tailwindcss configuration will give you all of the base styles and classes discussed later on in the [styling section](https://docs.piedao.org/development-resources/styling).
 
+[Read more at Github.](https://github.com/pie-dao/tailwind)
+
 #### Installation
 
 `yarn add @pie-dao/tailwind`
