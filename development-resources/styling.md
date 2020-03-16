@@ -400,7 +400,7 @@ See the [spacing section](https://docs.piedao.org/development-resources/styling#
 
 ### Top / Right / Bottom / Left
 
-We've added a single extra class to the [defaults provided by tailwindcss](https://tailwindcss.com/docs/top-right-bottom-left/#app).
+We've added a single extra class to the [defaults provided by tailwindcss](https://tailwindcss.com/docs/top-right-bottom-left/#app). Every [percentage](https://docs.piedao.org/development-resources/styling#percentage) from `1%` to `100%` are also available.
 
 `.inset-1/2 {  
   top: 50%;  
@@ -408,6 +408,10 @@ We've added a single extra class to the [defaults provided by tailwindcss](https
   bottom: 50%;  
   left: 50%;  
 }`
+
+`.top-1pc { top: 1%; }  
+/* ... */  
+.top-100pc { top: 100%; }`
 
 ### Width
 
