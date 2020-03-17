@@ -1,6 +1,6 @@
 # Styling
 
-[https://github.com/pie-dao/tailwind/blob/master/src/utilities/content.js](https://github.com/pie-dao/tailwind/blob/master/src/utilities/content.js)CSS styling for PieDAO frontend apps uses [tailwindcss](https://tailwindcss.com/docs) as a framework. In addition to the default style options, which are searchable on the [excellent tailwindcss docs site](https://tailwindcss.com/docs), we have included several additional options outlined in this section.
+CSS styling for PieDAO frontend apps uses [tailwindcss](https://tailwindcss.com/docs) as a framework. In addition to the default style options, which are searchable on the [excellent tailwindcss docs site](https://tailwindcss.com/docs), we have included several additional options outlined in this section.
 
 ## Screens \(@media breakpoints\)
 
