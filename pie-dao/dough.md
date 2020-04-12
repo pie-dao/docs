@@ -7,6 +7,10 @@ description: >-
 
 # Joining
 
+{% hint style="info" %}
+Please note: The pre-seed round has closed. It's highly likely that requesting $DOUGH at this time will result in the request just sitting there. Instead, please [join our Discord server](https://discord.gg/eJTYNUF) for more information about when the next round will open.
+{% endhint %}
+
 ![](../.gitbook/assets/screenshot-2020-02-27-at-21.24.16.png)
 
 ## How do I get DOUGH?
@@ -31,7 +35,7 @@ Fill the New request form with the amount of $DOUGH token you are requesting in 
 
 ![](../.gitbook/assets/step3-fill-it.png)
 
-The suggested ratio discussed by the DAO at this moment is **1 DOUGH = 0.000375 ETH or 1 ETH = 2666.67 DOUGH**. To make it easier, you can also use this [calculator](https://github.com/pie-dao/docs/raw/master/.gitbook/assets/PieDAO_tokens_calculator.xlsx).
+~~The suggested ratio discussed by the DAO at this moment is **1 DOUGH = 0.000375 ETH or 1 ETH = 2666.67 DOUGH**. To make it easier, you can also use this~~ [~~calculator~~](https://github.com/pie-dao/docs/raw/master/.gitbook/assets/PieDAO_tokens_calculator.xlsx)~~.~~
 
 When you're happy with your amounts, click 'Create Request' and sign the resulting transaction.
 
