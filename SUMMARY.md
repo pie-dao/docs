@@ -24,6 +24,7 @@
 * [What is a DAO?](frequently-asked-questions-1/what-is-a-dao.md)
 * [What is Governance?](frequently-asked-questions-1/what-is-governance.md)
 * [What is a Stablecoin?](frequently-asked-questions-1/what-is-a-stablecoin.md)
+* [Have your smart contracts been audited?](frequently-asked-questions-1/have-your-smart-contracts-been-audited.md)
 
 ## Development Resources
 
