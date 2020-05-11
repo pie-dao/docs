@@ -94,4 +94,4 @@ npx buidler mainnet-test --pool [SMART_POOL_ADDRESS] --network mainnet
 
 This command will throw an error if something is not as expected.
 
-Only **AFTER** these tests should the implementation be set on the actual smart pool contract.
+Only **AFTER** these tests should the implementation be set on the actual smart pool contract. [See above](#setting-new-implementation) on how to do this.
