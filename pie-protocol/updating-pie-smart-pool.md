@@ -68,28 +68,31 @@ Before upgrading any pool we do a test run using this pool first. To do this we 
 
 The automated test tests this functionality on mainnet:
 
-1. Check enforcement of cap.
-2. Setting cap from non controller.
-3. Changing controller address.
-4. Setting the cap.
-5. joinPool.
-6. exitPool.
-7. exitPool taking loss,
+1. Check the controller.
+2. Check if the cap is zero.
+3. Exiting the pool.
+4. Check if cap is enforced.
+5. Setting the cap.
+6. Joining the pool.
+7. Setting cap to zero
 8. Setting public swap from non public swap setter (should fail).
-9. Setting public swap setter.
-10. Setting public swap from right address.
-11. Binding token from non tokenBinder address (should fail).
+9. Setting public swap setter from controller.
+10. Setting public swap to true.
+11. Setting public swap to false.
+12. Setting the tokenBinder
 12. Unbinding token from non tokenBinder address (should fail).
+11. Binding token from non tokenBinder address (should fail)
 13. Rebinding token from non tokenBinderAddress (should fail).
-14. Changing tokenBinder address.
+17. Rebinding token from tokenBinderAddress.
 15. Binding token from tokenBinder address.
 16. Unbinding token from tokenBinder address.
-17. Rebinding token from tokenBinderAddress.
+14. Setting token binder to 0x000...0000.
+
 
 To run this test execute the following command:
 
 ```
-npx buidler mainnet-test --pool [SMART_POOL_ADDRESS] --network mainnet
+POOL=[POOL_ADDRESS] npx buidler test ./mainnet-test/test.ts --network [rinkeby|mainnet]
 ```
 
 This command will throw an error if something is not as expected.
