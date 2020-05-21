@@ -87,6 +87,7 @@ The automated test tests this functionality on mainnet:
 15. Binding token from tokenBinder address.
 16. Unbinding token from tokenBinder address.
 14. Setting token binder to 0x000...0000.
+15. Binding a token (should fail).
 
 
 To run this test execute the following command:
