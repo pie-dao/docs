@@ -80,14 +80,14 @@ The automated test tests this functionality on mainnet:
 10. Setting public swap to true.
 11. Setting public swap to false.
 12. Setting the tokenBinder
-12. Unbinding token from non tokenBinder address (should fail).
-11. Binding token from non tokenBinder address (should fail)
-13. Rebinding token from non tokenBinderAddress (should fail).
-17. Rebinding token from tokenBinderAddress.
-15. Binding token from tokenBinder address.
-16. Unbinding token from tokenBinder address.
-14. Setting token binder to 0x000...0000.
-15. Binding a token (should fail).
+13. Unbinding token from non tokenBinder address (should fail).
+14. Binding token from non tokenBinder address (should fail)
+15. Rebinding token from non tokenBinderAddress (should fail).
+16. Rebinding token from tokenBinderAddress.
+17. Binding token from tokenBinder address.
+18. Unbinding token from tokenBinder address.
+19. Setting token binder to 0x000...0000.
+20. Binding a token (should fail).
 
 
 To run this test execute the following command:
