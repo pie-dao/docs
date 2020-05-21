@@ -12,6 +12,7 @@
 
 ## Pie Protocol
 
+* [Updating a Smart Pool Implementation](pie-protocol/updating-pie-smart-pool.md)
 * [Creating a Pie](pie-protocol/creating-pie.md)
 * [Management](pie-protocol/management.md)
 
