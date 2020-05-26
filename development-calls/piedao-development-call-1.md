@@ -11,5 +11,3 @@
 * Flash Loan Experimentation Project
 * Bounty Program Development
 
-**Please, provide comments to add or correct agenda topics.**
-
