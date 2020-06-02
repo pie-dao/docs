@@ -36,4 +36,5 @@
 ## Development Calls
 
 * [PieDAO Development Call \#1](development-calls/piedao-development-call-1.md)
+* [PieDAO Development Call \#2](development-calls/piedao-development-call-2.md)
 
