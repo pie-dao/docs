@@ -32,6 +32,7 @@
 * [Getting Started](development-resources/getting-started.md)
 * [Frontend Template](development-resources/frontend-template.md)
 * [Styling](development-resources/styling.md)
+* [Development Bounty Program](development-resources/development-bounty-program.md)
 
 ## Development Calls
 
