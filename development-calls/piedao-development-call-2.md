@@ -3,7 +3,7 @@
 **June 2 2020, 12:00 PM UTC**
 
 **Link:** [https://us02web.zoom.us/j/85004339348?pwd=T2JCOHlBdTBiSzI3UVBJZ3YyTjJ0QT09](https://us02web.zoom.us/j/85004339348?pwd=T2JCOHlBdTBiSzI3UVBJZ3YyTjJ0QT09)  
- **Recording:** [https://www.youtube.com/watch?v=PENDING](https://www.youtube.com/watch?v=PENDING)
+ **Recording:** [https://www.youtube.com/watch?v=IO9AJ4q1i0w](https://www.youtube.com/watch?v=IO9AJ4q1i0w)
 
 ## Agenda
 
@@ -24,14 +24,12 @@
 
 ## Notes / Highlights
 
-* ...
-* ...
-
-## Todo
-
-* [ ] ...
-* [ ] ...
-
-## Attendees
-
-[@dmvt](https://github.com/dmvt) ...
+* Travis (@travisdmathis) has taken our first bounties
+* Flash loan experiments are cool and it looks like we can do it, thanks Mick!
+* Only major flash loan challenge is the need to lock trading for the transaction
+* Would make sense to be able to turn off flash loans via permission
+* Travis's bounty vote: https://mainnet.aragon.org/#/piedao/0x109b588a4f2a234e302c722f91fe42c5ab828a32/vote/150/
+* Bounty program docs: https://docs.piedao.org/development-resources/development-bounty-program
+* For any freelancer this process should feel familiar per @travisdmathis 
+* More detail around the technical implementation/pointers in the stories would help new people onboard
+* Timeline!
