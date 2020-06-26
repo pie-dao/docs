@@ -14,6 +14,7 @@
 
 * [Updating a Smart Pool Implementation](pie-protocol/updating-pie-smart-pool.md)
 * [Creating a Pie](pie-protocol/creating-pie.md)
+* [Q/A Checklist](pie-protocol/q-a-checklist.md)
 * [Management](pie-protocol/management.md)
 
 ## Current Pies
