@@ -8,7 +8,7 @@ description: >-
 # Joining
 
 {% hint style="info" %}
-Please note: We will be accepting new contributions from 11am EST on June 1st until 11am EST June 6th as part of [DAO Rush Week](https://daorushweek.com/). Instead, please [join our Discord server](https://discord.gg/eJTYNUF) for more information.
+Please note: The core team and summoners are not currently initiating votes for token requests. If you would like to get $DOUGH, please make a token request, [join our Discord server](https://discord.gg/eJTYNUF), and ask for someone to sponsor you in the \#dough-sponsors channel.
 {% endhint %}
 
 ![](../.gitbook/assets/screenshot-2020-02-27-at-21.24.16.png)
@@ -35,7 +35,7 @@ Fill the New request form with the amount of $DOUGH token you are requesting in 
 
 ![](../.gitbook/assets/step3-fill-it.png)
 
-The suggested ratio discussed by the DAO at this moment is **1 DOUGH = 0.00105 ETH or 2 ETH = 1 904.76 DOUGH**. To make it easier, you can also use this [calculator](https://github.com/pie-dao/docs/raw/master/.gitbook/assets/PieDAO%20tokens%20calculator_SEED.xlsx).
+The suggested ratio discussed by the DAO at this moment is **1 DOUGH = 0.00105 ETH or 2.1 ETH = 2000 DOUGH**. To make it easier, you can also use this [calculator](https://github.com/pie-dao/docs/raw/master/.gitbook/assets/PieDAO%20tokens%20calculator_SEED.xlsx).
 
 When you're happy with your amounts, click 'Create Request' and sign the resulting transaction.
 
@@ -44,7 +44,7 @@ When you're happy with your amounts, click 'Create Request' and sign the resulti
 That's it. When the transaction is confirmed, you have submitted your request. It is now up to the DAO members to initiate a vote and approve or decline the Token Request you just created. 
 
 {% hint style="info" %}
-If you request less than 2 ETH worth of DOUGH it is highly likely that your request will not be voted on.
+If you request less than 2.1 ETH worth of DOUGH it is highly likely that your request will not be voted on.
 {% endhint %}
 
 ![](../.gitbook/assets/step-5-done.png)
