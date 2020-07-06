@@ -2,6 +2,7 @@
 ![Screen Shot 2020-05-26 at 9.38.42 AM|690x386](https://forum.piedao.org/uploads/default/original/1X/06ccc0210cd93aa36451e5fe3cc2d478d050d4fe.jpeg) 
 
 ### Links
+- [How to mint USD++](https://medium.com/piedao/how-to-mint-usd-70501ad3db4e)
 - [Etherscan](https://etherscan.io/token/0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e#readContract)
 - [Pool](https://balancer.piedao.org/#/pool/0x1Ee383389c621C37Ee5Aa476F88413A815083c5D)
 - [Forum Post](https://forum.piedao.org/t/usd-v2-the-stablecoin-basket/116)
