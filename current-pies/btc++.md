@@ -4,6 +4,7 @@ BTC on Ethereum diversified
 ![Twitter6|690x230](https://forum.piedao.org/uploads/default/original/1X/4d37154c1c36ca79c1c7435442e5762d96e45c00.jpeg) 
 
 ### Links
+- [How to mint BTC++](https://medium.com/piedao/how-to-mint-btc-68a762c9a200?source=collection_home---6------1-----------------------)
 - [Etherscan](https://etherscan.io/address/0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd#readProxyContract)
 - [Pool](https://balancer.piedao.org/#/pool/0x9891832633a83634765952b051bc7feF36714A46)
 - [Forum Post](https://forum.piedao.org/t/btc-btc-on-ethereum-diversified/68)
