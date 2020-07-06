@@ -19,9 +19,9 @@
 
 ## Current Pies
 
-* [Coming Soon](current-pies/coming-soon.md)
 * [BTC++](current-pies/btc++.md)
 * [USD++](current-pies/usd++.md)
+* [BAL Rewards](current-pies/bal-rewards.md)
 
 ## Frequently Asked Questions <a id="frequently-asked-questions-1"></a>
 
