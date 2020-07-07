@@ -1,6 +1,6 @@
 # PieDAO Development Call \#5
 
-**June 23th 2020, 12:00 PM UTC**
+**July 7th 2020, 12:00 PM UTC**
 
 **Link:** [https://us02web.zoom.us/j/82787418536?pwd=U2xqRW9Ud3lCWUFXTmkwSFV4QWFFUT09](https://us02web.zoom.us/j/82787418536?pwd=U2xqRW9Ud3lCWUFXTmkwSFV4QWFFUT09)  
  **Recording:** [https://www.youtube.com/watch?v=PENDING](https://www.youtube.com/watch?v=PENDING)
