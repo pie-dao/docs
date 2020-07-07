@@ -2,6 +2,10 @@
 
 * [Getting Started](README.md)
 
+## Papers
+
+* [PieDAO](papers/piedao.md)
+
 ## Pie DAO
 
 * [Connecting Metamask](pie-dao/connecting-metamask.md)
@@ -10,7 +14,7 @@
 * [Participating in a Vote](pie-dao/participating-in-a-vote.md)
 * [Quitting](pie-dao/rage-quitting.md)
 
-## Pie Protocol
+## Pie Smart Pools <a id="pie-protocol"></a>
 
 * [Updating a Smart Pool Implementation](pie-protocol/updating-pie-smart-pool.md)
 * [Creating a Pie](pie-protocol/creating-pie.md)
