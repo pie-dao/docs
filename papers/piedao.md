@@ -12,17 +12,13 @@ In this paper we introduce an Ethereum decentralized autonomous organization \(D
 
 ### Introduction
 
-In the last decade, a significant shift in people’s relationship with money has occurred, due to a combination of macro-trends in economic, political, and technological forces. People have become increasingly mindful of domestic systemic risk and been seeking passive investment tools designed to mitigate that risk. // and keep ownership
+In the last decade, a significant shift in people’s relationship with money has occurred, due to a combination of macro-trends in economic, political, and technological forces. People have become increasingly mindful of domestic systemic risk and been seeking passive investment tools designed to mitigate that risk.
 
 In finance, index funds guarantee investors a controlled exposure to a portfolio. These products, however, are centralized solutions for portfolio management and offer little exposure to new asset classes like crypto and DeFi.
 
 Liquidity pools offer a new standard for efficiently trading assets while allowing investors to retain some properties of an index fund with automated rebalancing while earning a yield on their holdings.
 
 In this paper, we introduce a decentralized governance system for tokenized Smart Pools representing a portfolio allocation and frictionless exposure to a diversified basket of tokens, implemented as, but not exclusively, a liquidity pool.
-
-### Thesis
-
-// TODO
 
 ## Pie Smart Pools
 
