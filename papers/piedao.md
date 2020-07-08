@@ -163,8 +163,8 @@ The proposed model below is designed to free the average DAO token holder from d
 
 In the following pages, we introduce a DAO governance model that is designed to create an operative commission within the DAO to work on a specific task, with aligned incentives via staking to boost participation and punish misbehave via slashing.
 
-It's been observed in DAOs with a large number of token holders a common condition, low partecipation to day-to-day activities. The vast majority of holders are active only for high impact or controversial proposals, day-to-day activities are often performed by a minority of token holders without any explicit delegation nor incentive to do so.
-
+DAOs with a large number of token holders often suffer a common condition, low participation in day-to-day activities. The vast majority of holders are voting only for high impact/controversial proposals. A few are instead voting often on operative decisions without getting rewarded or explicit delegation.  
+  
 This model aims to change that.
 
 ### Stakeholders
