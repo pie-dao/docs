@@ -379,9 +379,9 @@ Bob Scenario at the end of Q1
 | Q2 MIP | 0.00% |
 | Q2 Penalty Level | 3 |
 
-Alice is performing poorly, participating to only 10% of the votes.
+Alice is performing poorly, participating in only 10% of the votes.
 
-Under Bob sollicitude, DOUGH holder during quarter 2, have raised `Level_of_Misconduct` for Alice to 3.
+At Bob's request, DOUGH holders have voted to raise Alice's `Level_of_Misconduct` to 3.
 
 Alice Scenario at the end of Q2
 
@@ -407,9 +407,9 @@ Bob Scenario at the end of Q2
 | Q3 MIP | 16.00% |
 | Q3 Penalty Level | 3 |
 
-Alice is performing better, partecipating to 100% of the votes.
+Alice is performing better, participating in 100% of the votes.
 
-Alice closed the quarter with `Level_of_Misconduct` of 3 as a preventive behaviour.
+Alice closed the quarter with her `Level_of_Misconduct` still set at 3.
 
 Alice Scenario at the end of Q3
 
@@ -437,7 +437,7 @@ Bob Scenario at the end of Q3
 
 Alice is back on track with 100% MPP.
 
-Alice closed the quarter with `Level_of_Misconduct` of 2, since she was doing better in Q3.
+DOUGH holders have voted to lower her `Level_of_Misconduct` to 2 based on her performance in Q3.
 
 Alice Scenario at the end of Q4
 
@@ -458,7 +458,7 @@ The bonus is calculated by dividing the number of votes in which the member took
 ```text
 MIP_Alice = MIP_q1 + MIP_q2 + MIP_q3 + MIP_q4;
 MIP_Alice = 29.00%;
-Alice_Bonus_Reward = AliceStake*Bonus_Reward*MIP_Alice;
+Alice_Bonus_Reward = AliceStake * Bonus_Reward * MIP_Alice;
 Alice_Bonus_Reward = 8,678;
 Alice_Slash = Alice_Bonus_Reward - AliceStake;
 Alice_Net = -1,323
@@ -480,8 +480,8 @@ Bob Bonus reward
 
 * Alice didn't do great on Q1 and Q2.
 * Alice did better on Q3 and Q4 and managed to save most of her stake.
-* Bob was impacted by Alice behavious but ends net positive.
+* Bob was impacted by Alice's behavior but ends net positive.
 * Bob had to make sure Alice was voting enough.
 * DOUGH Holders have renounced to Staking rewards for the possibility of staying liquid and possibly exit the DAO at any time.
-* FLOUR Holders have renounced to direct governace in exchange for staking rewards.
+* FLOUR Holders have renounced to direct governance in exchange for staking rewards.
 
