@@ -207,7 +207,7 @@ Through the process of staking FLOUR, new DOUGH is created.
 
 The inflation rate is decided by governance which jointly decides a `Quarterly Reward` amount and `Bonus Reward`.
 
-Commission members with good performance at the end of the year and users delegating to them are entitled to the Bonus Reward.
+Commission members with good performance at the end of the year and users delegating to them are entitled to the `Bonus Reward`.
 
 Good actors are rewarded for bootstrapping the governance mechanism and participating in governance.
 
@@ -226,13 +226,13 @@ MIP = (Yes_CM + No_CM) / TotalVotesInQuarter.
 
 // MPP and MIP are calculated every quarter.
 
-Q_Rewards_CM_% = 1 - (1-MPP) * Level_of_Misconduct%;
-Q_Rewards_CM = ((CM_Stake/4) * (CM_Stake * QuarterlyReward)) * Q_Rewards_CM_%;
+Q_Rewards_CM_% = 1 - (1 - MPP) * Level_of_Misconduct_%;
+Q_Rewards_CM = ((CM_Stake / 4) * (CM_Stake * QuarterlyReward)) * Q_Rewards_CM_%;
 
-Q_Rewards_DL = 1 - (1-MPP) * Level_of_Misconduct_% * Delegator_Penalty ;
+Q_Rewards_DL = 1 - (1 - MPP) * Level_of_Misconduct_% * Delegator_Penalty ;
 
 MIP_CM = MIP_q1 + MIP_q2 + MIP_q3 + MIP_q4;
-CM_Bonus_Reward = CM_Stake*Bonus_Reward*MIP_CM;
+CM_Bonus_Reward = CM_Stake * Bonus_Reward * MIP_CM;
 Slash_CM = CM_Bonus_Reward - CM_Stake;
 ```
 
@@ -242,7 +242,7 @@ PieDAO is an Aragon DAO running the Dandelion organization structure.
 
 In any voting-based system, there are cases for possible collusion or unavailability of stakeholders. For this reason, PieDAO implements rage-quit, a functionality popularized by MolochDAO which guarantees that participants can exit if they disagree with the decisions other members are making.
 
-#### Governance paramenters
+#### Governance parameters
 
 | Time | Action | MIN Approval | Support |
 | :--- | :--- | :--- | :--- |
@@ -250,7 +250,7 @@ In any voting-based system, there are cases for possible collusion or unavailabi
 
 #### Apps installed
 
-* [Redemptions](https://github.com/1Hive/redemptions-app): Allows users to manage a list of eligible assets held within an organizations Vault and allow members of the organization to redeem \(burn\) organization token in exchange for a proportional amount of the eligible assets.
+* [Redemptions](https://github.com/1Hive/redemptions-app): Allows users to manage a list of eligible assets held within an organization's Vault and allow members of the organization to redeem \(burn\) organization token in exchange for a proportional amount of the eligible assets.
 * [Token Request](https://github.com/1Hive/token-request-app): Allows users to propose minting tokens in exchange for a payment to the organization, subject to the approval of existing members.
 * [Time Lock](https://github.com/1Hive/time-lock-app): Allows an organization to require users to lock a configure amount of tokens for a configurable amount of time in order to forward an intent.
 * [Dandelion Voting](https://github.com/1Hive/dandelion-voting-app) An enhanced version of Aragon One's voting app which implements an ACL Oracle which allows an organization to configure permissions that restrict actions based on whether an address has recently voted Yes.
@@ -312,7 +312,7 @@ New elections for Commission A is about to open with parameters:
 
 #### Summary Q1
 
-Alice candidates for Committee member by staking 10,000 FLOUR tokens. Since Alice staked 10,000 FLOUR, up to 200,000 FLOUR can delegated to her candidacy.
+Alice registers as a Committee member candidate by staking 10,000 FLOUR tokens. Since Alice staked 10,000 FLOUR, up to 200,000 FLOUR can delegated towards her candidacy.
 
 Bob delegated 200,000 FLOUR to Alice.
 
@@ -331,17 +331,17 @@ _End of Q1_
 Alice has only voted in one of the 2 votes, her Member Participation Percentage \(MPP\) is 50%. Alice closed the quarter with `Level_of_Misconduct` of 1.
 
 ```text
-MPP = AliceVotes/TotalVotesInQuarter
+MPP = AliceVotes / TotalVotesInQuarter
 ```
 
 To calculate Alice Q1 rewards, we then use the following formula:
 
 ```text
-Q1_Rewards% = 1 - (1-MPP) * Level_of_Misconduct%;
-Q1_Rewards% = 1 - (1-50%)*10%;
+Q1_Rewards% = 1 - (1 - MPP) * Level_of_Misconduct%;
+Q1_Rewards% = 1 - (1 - 50%) * 10%;
 Q1_Rewards% = 95%;
-Q1_Rewards_Alice = ((AliceStake/4) * (AliceStake * QuarterlyReward)) * Q1_Rewards%;
-Q1_Rewards_Alice = ((10000/4) + (10000 * 2.5%)) * 95%;
+Q1_Rewards_Alice = ((AliceStake / 4) * (AliceStake * QuarterlyReward)) * Q1_Rewards_%;
+Q1_Rewards_Alice = ((10000 / 4) + (10000 * 2.5%)) * 95%;
 Q1_Rewards_Alice = 2612.5;
 ```
 
@@ -351,13 +351,13 @@ Alice Scenario at the end of Q1
 | :--- | :--- | :--- |
 | 2,750 | 2,613 | 95.00% |
 
-Also Bob is penalized by Alice bad behaviour, to calculate Bob Q1 rewards, we then use the following formula:
+Bob is penalized by Alice bad behavior, to calculate Bob Q1 rewards, we then use the following formula:
 
 ```text
-Q1_Rewards% = 1 - (1-MPP) * Level_of_Misconduct% * Delegator_Penalty ;
-Q1_Rewards% = 1 - (1-50%) * 10% * 40%;
+Q1_Rewards% = 1 - (1 - MPP) * Level_of_Misconduct_% * Delegator_Penalty;
+Q1_Rewards% = 1 - (1 - 50%) * 10% * 40%;
 Q1_Rewards% = 98%;
-Q1_Rewards_Bob = ((DelegatorStake/4) * (DelegatorStake * QuarterlyReward)) * Q1_Rewards%;
+Q1_Rewards_Bob = ((DelegatorStake / 4) * (DelegatorStake * QuarterlyReward)) * Q1_Rewards%;
 Q1_Rewards_Bob = 53,900;
 ```
 
@@ -379,7 +379,7 @@ Bob Scenario at the end of Q1
 | Q2 MIP | 0.00% |
 | Q2 Penalty Level | 3 |
 
-Alice is performing poorly, partecipating to only 10% of the votes.
+Alice is performing poorly, participating to only 10% of the votes.
 
 Under Bob sollicitude, DOUGH holder during quarter 2, have raised `Level_of_Misconduct` for Alice to 3.
 
