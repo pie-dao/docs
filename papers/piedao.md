@@ -32,7 +32,7 @@ The Pie Smart Pools are asset management agnostic, at the time of writing, Pie S
 
 Balancer is an Automated Market Maker protocol, similar to Uniswap, which allows anyone to create a self-balancing index fund like token. Those pools can be either Controlled vs Finalized Pools.
 
-1. Controlled pools are configurable by a “controller” address. Only this address can add or remove liquidity to the pool \(call join or exit\). This type of pool allows for great flexibility and implementation of custom functionality besides allowing the change of fees, pool assets and their weights.
+1. Controlled pools are configurable by a “controller” address. Only this address can add or remove liquidity to the pool \(call join or exit\). This type of pool allows for great flexibility and implementation of custom functionality besides allowing the change of fees, pool assets, and their weights.
 2. Finalized pools have fixed pool asset types, weights, and fees.
 
 Any pool created on the Balancer protocol is used to aggregate liquidity when users want to swap one token for another.
@@ -41,7 +41,7 @@ Any pool created on the Balancer protocol is used to aggregate liquidity when us
 
 Suppling assets to a Pie will mint the Pie to your Ethereum wallet. Pies are represented by an ERC-20 token balance, which entitles the owner to a proportional share to an increasing quantity of the underlying asset.
 
-There are two ways on suppling assets:
+There are two ways of supplying assets:
 
 1. Weighted-asset deposit/withdrawal
 2. Single-asset deposit/withdrawal
@@ -70,7 +70,7 @@ function exitPool(uint256 _amount) external override ready noReentry {
 
 On a standard finalized Balancer pool if an asset transfer function reverts is not possible to redeem any of the underlying assets.
 
-Pie smart pool allows exiting the pool even with multiple frozed assets in it by using a specific function designed to limit the loss of frozen assets.
+Pie smart pool allows exiting the pool even with multiple frozen assets in it by using a specific function designed to limit the loss of frozen assets.
 
 ```text
 @param _lossTokens Tokens skipped on redemption
@@ -80,7 +80,7 @@ function exitPoolTakingloss(uint256 _amount, address[] calldata _lossTokens)
 
 ### Features & Use Cases
 
-Pie Smart Pools implement a wide range of additional features, from safe-guards to flash loans, designed for diffent usecase which a specif allocation might befenit from.
+Pie Smart Pools implement a wide range of additional features, from safe-guards to flash loans, designed for a different use-case which a specific allocation might benefit from.
 
 #### Flash loans
 
@@ -98,41 +98,41 @@ In some cases, `PFlashLoans` Pools could be used for more reasons than borrowing
 
 #### Dynamic Fees
 
-DAO governed function `setSwapFee()` in PieDAO Smart Pools allows for a dynamic fee system which can respond quickly to the expansion and contraction of demand of specific assets in the pool according to external factors.
+DAO governed function `setSwapFee()` in PieDAO Smart Pools allows for a dynamic fee system that can respond quickly to the expansion and contraction of demand for specific assets in the pool according to external factors.
 
-Fees can be either decided directly by DAO partecipants or algorithmically determined according to specific factors.
+Fees can be either decided directly by DAO participants or algorithmically determined according to specific factors.
 
-Additionally, a dynamic fee system can be used to influence trading frequency withing the pool and either incentivize or disincentivize rebalancing until a certain maximum deviation from the nominal % allocations is reached.
+Additionally, a dynamic fee system can be used to influence trading frequency withing the pool, and either incentivize or disincentivize rebalancing until a certain maximum deviation from the nominal % allocations is reached.
 
-Similarly to other industries, the ability to set pricing rules with a powerful algorithm that takes the price elasticity of tokens into account is likely to become an essential property of successuful pools.
+Similarly to other industries, the ability to set pricing rules with a powerful algorithm that takes the price elasticity of tokens into account is likely to become an essential property of successful pools.
 
 #### Dynamic Weights
 
-Pies are different in nature, some will be designed to be boost diversification, others to maximize yield. Pie Smart Pools allows for timed based weights adjustment to run off-chain and being notarized by DOUGH token holders.
+Pies are different in nature, some will be designed to be boost diversification, others to maximize yield. Pie Smart Pools allow timed based weights adjustments to run off-chain and be notarized by DOUGH token holders.
 
-One early example is USD++, in which weight function takes into consideration several different factors including the volatility compared to the peg of $1, trust minimization, market risk, and adjusts weights every quarter based on the DAO decision.
+One early example is USD++, in which weight function takes into consideration several different factors including the volatility compared to the peg of $1, trust minimization, and market risk, allowing weights to be adjusted every quarter by the DAO.
 
-Dynamic Weights can be used for instance to roll expiring futures contracts offering perpetual exposure to an asset class and even replicate derivatives such as protective puts and calls.
+Dynamic Weights can be used to roll expiring futures contracts, offering perpetual exposure to an asset class, and even replicate derivatives such as protective puts and calls.
 
-ie: Adjust the weight of the underlying asset to always equal Δ\*Price/Value aka the elasticity or ‘omega’ of the derivative.
+ie: Adjust the weight of the underlying asset to always equal `Δ * Price / Value` aka the elasticity or ‘omega’ of the derivative.
 
 More on [Liquidity Provider Returns in Geometric Mean Markets](https://arxiv.org/abs/2006.08806).
 
-#### Safe guards - Halting trading
+#### Safeguards - Halting trading
 
-Unlike finalized pools in Uniswap or Balancer, trading in Pie smart pools can be halted. Emergency transactions can be prepared under the specific will of DAO token holders and get broadcasted in the case of specific conditions that require trading to be halted.
+Unlike finalized pools in Uniswap or Balancer, trading in Pie Smart Pools can be halted. Emergency transactions can be prepared via a vote of DAO token holders and broadcast in the future under specific conditions that require trading to be halted.
 
 These transactions can be triggered based on multiple conditions by bots monitoring the mempool for abnormal behavior regarding the price and total supply of the underlying assets, in order to minimize the risk of a single asset collapsing draining the entire pool.
 
 Over time, we believe live risk statistics and predictive analysis regarding the likelihood of a specific asset defaulting will be essential tools for liquidity pools to succeed.
 
-#### Safe guards - Capped Pools
+#### Safeguards - Capped Pools
 
 Pie smart pool can include a maximum cap for experimental pools.
 
 ### Parameters to Govern
 
-Pie smart pool have a range of parameters governed by DOUGH holders.
+Pie Smart Pools have a range of parameters governed by DOUGH holders.
 
 * Pie Swap Fee
 * Pie Weights Function
@@ -151,7 +151,7 @@ Governance models in DAOs however still present challenges.
 
 ### Background
 
-Governance is at the core of many DAOs. Unlike solidified protocols like Bitcoin, DeFi projects might need a greater amount of granularity in decision making. It’s imperative that the process of decision making is transparent and incentivized accordingly.
+Governance is at the core of many DAOs. Unlike solidified protocols like Bitcoin, DeFi projects might need a greater level of granularity in decision making. It’s imperative that the process of decision making is transparent and incentivized accordingly.
 
 Delegation mechanisms can play a positive role in reducing the amount of work required by token holders. Parties with significant delegated tokens need to have enough reasons to not be malicious.
 
@@ -159,7 +159,7 @@ Stimulating participation in governance is a combination of reducing friction fr
 
 The proposed model below is designed to free the average DAO token holder from day to day work, while ensuring continuity in governance for specific tasks. Average token holders can any time remove decision power from delegated parties.
 
-### A staking model for active delegated governace
+### A staking model for active delegated governance
 
 In the following pages, we introduce a DAO governance model that is designed to create an operative commission withing the DAO to work on a specific task, with aligned incentives via staking to boost participation and punish misbehave via slashing.
 
