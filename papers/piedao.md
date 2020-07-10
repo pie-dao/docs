@@ -6,7 +6,7 @@ description: 'DRAFT v0.1 - Beware: This document is likely to change in the near
 
 ### Abstract
 
-PieDAO is an asset allocation decentralized autonomous organization \(DAO\) for governing tokenized portfolio allocations.
+PieDAO is an asset allocation Decentralized Autonomous Organization \(DAO\) for governing tokenized portfolio allocations.
 
 In this paper we introduce an Ethereum decentralized autonomous organization \(DAO\) initially focused on creating tokenized asset allocations called PIEs where weights are collectively governed by DAO members, allowing users to frictionlessly get exposure to different allocations.
 
@@ -22,15 +22,15 @@ In this paper, we introduce a decentralized governance system for tokenized Smar
 
 ## Pie Smart Pools
 
-Pie Smart Pools are non-custodial smart contracts, they are the first implementation of a DAO-governed AMM pool. They add extra functionality on top of vanilla AMMs pools.
+Pie Smart Pools are non-custodial smart contracts, the first implementation of a DAO-governed AMM pool. They add extra functionality on top of vanilla AMMs pools.
 
-Providing liquidity to one of these Pie gets you tokenized exposure to the underlying assets and additionally generates yield from the liquidity in these pools to perform token swaps.
+Providing liquidity to one of these Pies gets you tokenized exposure to the underlying assets and additionally generates yield from the liquidity in these pools to perform token swaps.
 
-The Pie Smart Pools are asset management agnostic, at the time of writing, Pie Smart Pools are compatible with the Balancer interface.
+The Pie Smart Pools are asset management agnostic. At the time of writing, Pie Smart Pools are compatible with the Balancer interface.
 
 ### Background
 
-Balancer is an Automated Market Maker protocol, similar to Uniswap, which allows anyone to create a self-balancing index fund like token. Those pools can be either Controlled vs Finalized Pools.
+Balancer is an Automated Market Maker protocol, similar to Uniswap, which allows anyone to create a self-balancing index fund-like token. Those pools can be either Controlled or Finalized Pools.
 
 1. Controlled pools are configurable by a “controller” address. Only this address can add or remove liquidity to the pool \(call join or exit\). This type of pool allows for great flexibility and implementation of custom functionality besides allowing the change of fees, pool assets, and their weights.
 2. Finalized pools have fixed pool asset types, weights, and fees.
@@ -54,11 +54,11 @@ Represented in the smart contracts by the following functions:
 function joinPool(uint256 _amount) external virtual override ready noReentry
 ```
 
-`joinswapExternAmountIn` allows a deposit where only one of the underlying quantities of assets is provided. Depositing a single asset is equivalent to depositing all pool assets proportionally by swapping the provided assets, which included slippage.
+`joinswapExternAmountIn` allows a deposit where only one of the underlying quantities of assets is provided. Depositing a single asset is equivalent to depositing all pool assets proportionally by swapping the provided assets, which includes slippage.
 
 ### Redeeming Pies
 
-Redeeming assets in the Pie is equivalent to burn Pie tokens in the non-custodial smart-contract.
+Redeeming assets in the Pie is equivalent to burning Pie tokens in the non-custodial smart-contract.
 
 `exitPool` allows Pie holders to burn Pie tokens and receive the underlying quantities of assets according to weights.
 
@@ -66,11 +66,11 @@ Redeeming assets in the Pie is equivalent to burn Pie tokens in the non-custodia
 function exitPool(uint256 _amount) external override ready noReentry {
 ```
 
-`exitswapPoolAmountIn` allows Pie holders to burn Pie tokens and receive only one of the underlying asset. Exiting to a single asset is equivalent to swapping the other underlying assets for the chosen one, which included slippage.
+`exitswapPoolAmountIn` allows Pie holders to burn Pie tokens and receive only one of the underlying asset. Exiting to a single asset is equivalent to swapping the other underlying assets for the chosen one, which includes slippage.
 
-On a standard finalized Balancer pool if an asset transfer function reverts is not possible to redeem any of the underlying assets.
+On a standard finalized Balancer pool if an asset transfer function reverts it is not possible to redeem any of the underlying assets.
 
-Pie smart pool allows exiting the pool even with multiple frozen assets in it by using a specific function designed to limit the loss of frozen assets.
+Pie Smart Pools allow exiting the pool even with multiple frozen assets in it by using a specific function designed to limit the loss of frozen assets.
 
 ```text
 @param _lossTokens Tokens skipped on redemption
@@ -80,35 +80,35 @@ function exitPoolTakingloss(uint256 _amount, address[] calldata _lossTokens)
 
 ### Features & Use Cases
 
-Pie Smart Pools implement a wide range of additional features, from safe-guards to flash loans, designed for a different use-case that a specific allocation might benefit from.
+Pie Smart Pools implement a wide range of additional features, from safeguards to flash loans, designed for a different use case that a specific allocation might benefit from.
 
-#### Flash loans
+#### Flash Loans
 
-A flash loan allows you to borrow an asset without the need for collateral as long as the asset is returned within the same transaction.
+A Flash Loan allows you to borrow an asset without the need for collateral as long as the asset is returned within the same transaction.
 
-Flash-loan technology allows users to use fewer transactions, thereby reducing fees.
+Flash Loan technology allows users to use fewer transactions, thereby reducing fees.
 
-They allow users to perform a variety of operations including arbitrage, refinancing, and more. Borrowers of a Flash Loans might have to pay fees when returning the funds.
+They allow users to perform a variety of operations including arbitrage, refinancing, and more. Borrowers of Flash Loans might have to pay fees when returning the funds.
 
-Pie Smart Pools allows for flash loans via the `PFlashLoans` smart contract pool.
+Pie Smart Pools allows for Flash Loans via the `PFlashLoans` smart contract pool.
 
 Unlike other platforms offering Flash Loans, for security reasons `PFlashLoans` does not imply funds have been returned after a smart contract call by looking at the balances at the end of a transaction. It explicitly sends funds back to the Pie Smart Pool.
 
-In some cases, `PFlashLoans` Pools could be used for more reasons than borrowing funds, for instance, a Pie containing governance tokens of some DAOs could use the flash loan mechanics to vote by owning the Pie instead of the governance token.
+In some cases, `PFlashLoans` Pools could be used for more reasons than borrowing funds, for instance, a Pie containing governance tokens of some DAOs could use the Flash Loan mechanics to vote by owning the Pie instead of the governance token.
 
 #### Dynamic Fees
 
-DAO governed function `setSwapFee()` in PieDAO Smart Pools allows for a dynamic fee system that can respond quickly to the expansion and contraction of demand for specific assets in the pool according to external factors.
+The DAO governed function `setSwapFee()` in PieDAO Smart Pools allows for a dynamic fee system that can respond quickly to the expansion and contraction of demand for specific assets in the pool according to external factors.
 
 Fees can be either decided directly by DAO participants or algorithmically determined according to specific factors.
 
-Additionally, a dynamic fee system can be used to influence trading frequency withing the pool, and either incentivize or disincentivize rebalancing until a certain maximum deviation from the nominal % allocations is reached.
+Additionally, a dynamic fee system can be used to influence trading frequency within the pool, and either incentivize or disincentivize rebalancing until a certain maximum deviation from the nominal % allocations is reached.
 
 Similarly to other industries, the ability to set pricing rules with a powerful algorithm that takes the price elasticity of tokens into account is likely to become an essential property of successful pools.
 
 #### Dynamic Weights
 
-Pies are different in nature, some will be designed to be boost diversification, others to maximize yield. Pie Smart Pools allow timed based weights adjustments to run off-chain and be notarized by DOUGH token holders.
+Pies are different in nature, some will be designed to boost diversification, others to maximize yield. Pie Smart Pools allow time-based weight adjustments to run off-chain and be notarized by DOUGH token holders.
 
 One early example is USD++, in which weight function takes into consideration several different factors including the volatility compared to the peg of $1, trust minimization, and market risk, allowing weights to be adjusted every quarter by the DAO.
 
@@ -122,13 +122,13 @@ More on [Liquidity Provider Returns in Geometric Mean Markets](https://arxiv.org
 
 Unlike finalized pools in Uniswap or Balancer, trading in Pie Smart Pools can be halted. Emergency transactions can be prepared via a vote of DAO token holders and broadcast in the future under specific conditions that require trading to be halted.
 
-These transactions can be triggered based on multiple conditions by bots monitoring the mempool for abnormal behavior regarding the price and total supply of the underlying assets, in order to minimize the risk of a single asset collapsing draining the entire pool.
+These transactions can be triggered based on multiple conditions by bots monitoring the mempool for abnormal behavior regarding the price and total supply of the underlying assets, in order to minimize the risk of a single asset collapse draining the entire pool.
 
 Over time, we believe live risk statistics and predictive analysis regarding the likelihood of a specific asset defaulting will be essential tools for liquidity pools to succeed.
 
 #### Safeguards - Capped Pools
 
-Pie smart pool can include a maximum cap for experimental pools.
+Pie Smart Pools can include a maximum cap for experimental pools.
 
 ### Parameters to Govern
 
@@ -137,7 +137,7 @@ Pie Smart Pools have a range of parameters governed by DOUGH holders.
 * Pie Swap Fee
 * Pie Weights Function
 * Pie Trading Switch
-* Pie Flashloan Fee
+* Pie Flash Loan Fee
 * Pie Single asset entry/exit Fee
 * Pie Management Fee
 * Pie Cap Value
@@ -145,7 +145,7 @@ Pie Smart Pools have a range of parameters governed by DOUGH holders.
 
 ## Governance
 
-DAOs are designed to disintermediate the hierarchy structure of organizations through their transparency, effectively giving direct control to shareholders. Key features are transparency, the immutability of the organization, and the accessible nature of the platform they are built upon.
+DAOs are designed to disintermediate the hierarchic structure of organizations through their transparency, effectively giving direct control to shareholders. Key features are transparency, the immutability of the organization, and the accessible nature of the platform they are built upon.
 
 Governance models in DAOs however still present challenges.
 
@@ -161,34 +161,34 @@ The proposed model below is designed to free the average DAO token holder from d
 
 ### A staking model for active delegated governance
 
-In the following pages, we introduce a DAO governance model that is designed to create an operative commission within the DAO to work on a specific task, with aligned incentives via staking to boost participation and punish misbehave via slashing.
+In the following pages, we introduce a DAO governance model that is designed to create an operative committee within the DAO to work on a specific task, with aligned incentives via staking to boost participation and punish misbehavior via slashing.
 
-DAOs with a large number of token holders often suffer a common condition, low participation in day-to-day activities. The vast majority of holders are voting only for high impact/controversial proposals. A few are instead voting often on operative decisions without getting rewarded or explicit delegation.  
-  
+DAOs with a large number of token holders often suffer a common condition: low participation in day-to-day activities. The vast majority of holders are voting only for high impact/controversial proposals. A few are instead voting often on operational decisions without getting rewarded or explicit delegation.
+
 This model aims to change that.
 
 ### Stakeholders
 
-**DOUGH Token Holders**: DOUGH is the most important asset for decision making. Any decision can be taken or revoked using DOUGH. DOUGH is a non-transferable asset that has the sole purpose of facilitating participation in the PieDAO governance mechanism. Holders of DOUGH have the ability to vote on decisions in the DAO and exit the DAO \(aka ragequit\) whenever there is not an active vote that they initiated.
+**DOUGH Token Holders**: DOUGH is the most important asset for decision making. Any decision can be taken or revoked using DOUGH. DOUGH is a non-transferable asset that has the sole purpose of facilitating participation in the PieDAO governance mechanism. Holders of DOUGH have the ability to vote on decisions in the DAO and exit the DAO \(aka rage-quit\) whenever there is not an active vote that they initiated.
 
 **FLOUR Token Holders**: DOUGH holders can burn DOUGH for FLOUR at any time. FLOUR is free to transfer, trade, and stake. One DOUGH can always be burned for one FLOUR.
 
-**Committee member**: In order to become a Committee member a candidate has to stake FLOUR into the election contract, the candidate's stake sets the upper limit on what others can stake towards their candidacy. The Candidate Stake represents 5% of the maximum amount on what others can stake towards their candidacy.
+**Committee member**: In order to become a Committee member a candidate has to stake FLOUR into the election contract. The candidate's stake sets the upper limit on what others can stake towards their candidacy. The Candidate Stake represents 5% of the maximum amount on what others can stake towards their candidacy.
 
 Elected members must vote on questions raised by members of the PieDAO community. They may vote YES, NO, or ABSTAIN. Failure to vote results in the slashing of a portion of that member's stake.
 
 A Committee member can charge a fee on rewards generated by delegated funds. Such fee is extracted to the Committee member at the end of each epoch providing the Committee member has not been slashed for lack of participation.
 
-**Delegators:** FLOUR holders delegating to a `Committee member` in order to generate more DOUGH.
+**Delegators:** DOUGH holders can delegate to a `Committee member` in order to generate more DOUGH.
 
-### Commission election
+### Commission Elections
 
-Once per epoch \(`t = number of blocks in the epoch)`, per committee, an election is held to pick an amount \(`n = number of members to elect for the commission)` of committee members.   
+Once per epoch \(`t = number of blocks in the epoch)`, per committee, an election is held to pick an amount \(`n = number of members to elect for the commission)` of committee members.   \
 The election runs from `startBlock` to `endBlock`, once `endBlock` is passed the `n` candidates with the most FLOUR staked on them win the election and serve for the epoch unless removed.
 
 ### Misconduct and Slashing
 
-The system recognizes 3 security threat levels to the system, each level of penalty, represented in percentage point, indicated the amount slashed according to level.
+The system recognizes 3 security threat levels to the system. Each level of penalty, represented in percentage points, indicates the amount slashed according to level.
 
 **Level 1** Misconducts that are likely to happen eventually to most participants. Proposed slashing 10.0% of the stake.
 
@@ -196,7 +196,7 @@ The system recognizes 3 security threat levels to the system, each level of pena
 
 **Level 3** Misconducts that are unlikely to happen in good faith or by accident, considered malicious. Proposed slashing is 100% of the stake.
 
-Right after an election, every Committee member starts at Level 1. If they fail to fulfill their role or generally act out of bad faith \(i.e. commit excessive misconduct\), DOUGH Token Holders can decide to raise their penalty level.
+Right after an election, every Committee member starts at Level 1. If they fail to fulfill their role or generally act in bad faith \(ie commit excessive misconduct\), DOUGH Token Holders can decide to raise their penalty level.
 
 It's in each `Delegator`'s interest to make sure their `Committee member` performs work required. Otherwise, a `Delegator` should ask DOUGH Token Holders to increase the penalty level of their `Committee member`.
 
@@ -210,11 +210,11 @@ Through the process of staking FLOUR, new DOUGH is created.
 
 The inflation rate is decided by governance which jointly decides a `Quarterly Reward` amount and `Bonus Reward`.
 
-Commission members with good performance at the end of the year and users delegating to them are entitled to the `Bonus Reward`.
+Committee members with good performance at the end of the year and users delegating to them are entitled to the `Bonus Reward`.
 
 Good actors are rewarded for bootstrapping the governance mechanism and participating in governance.
 
-`Quarterly Reward` is distributed every quarter according to the number of votes the Committee Member participated in compared to the total number of votes in the quarter.
+The `Quarterly Reward` is distributed every quarter according to the number of votes the Committee Member participated in compared to the total number of votes in the quarter.
 
 ### Rewards / Slashing Function
 
@@ -253,10 +253,10 @@ In any voting-based system, there are cases for possible collusion or unavailabi
 
 #### Apps installed
 
-* [Redemptions](https://github.com/1Hive/redemptions-app): Allows users to manage a list of eligible assets held within an organization's Vault and allow members of the organization to redeem \(burn\) organization token in exchange for a proportional amount of the eligible assets.
+* [Redemptions](https://github.com/1Hive/redemptions-app): Allows users to manage a list of eligible assets held within an organization's Vault and allows members of the organization to redeem \(burn\) organization tokens in exchange for a proportional amount of the eligible assets.
 * [Token Request](https://github.com/1Hive/token-request-app): Allows users to propose minting tokens in exchange for a payment to the organization, subject to the approval of existing members.
 * [Time Lock](https://github.com/1Hive/time-lock-app): Allows an organization to require users to lock a configure amount of tokens for a configurable amount of time in order to forward an intent.
-* [Dandelion Voting](https://github.com/1Hive/dandelion-voting-app) An enhanced version of Aragon One's voting app which implements an ACL Oracle which allows an organization to configure permissions that restrict actions based on whether an address has recently voted Yes.
+* [Dandelion Voting](https://github.com/1Hive/dandelion-voting-app): An enhanced version of Aragon One's voting app which implements an ACL Oracle which allows an organization to configure permissions that restrict actions based on whether an address has recently voted Yes.
 
 #### Permissions
 
@@ -315,7 +315,7 @@ New elections for Commission A is about to open with parameters:
 
 #### Summary Q1
 
-Alice registers as a Committee member candidate by staking 10,000 FLOUR tokens. Since Alice staked 10,000 FLOUR, up to 200,000 FLOUR can delegated towards her candidacy.
+Alice registers as a Committee member candidate by staking 10,000 FLOUR tokens. Since Alice staked 10,000 FLOUR, up to 200,000 FLOUR can be delegated towards her candidacy.
 
 Bob delegated 200,000 FLOUR to Alice.
 
@@ -354,7 +354,7 @@ Alice Scenario at the end of Q1
 | :--- | :--- | :--- |
 | 2,750 | 2,613 | 95.00% |
 
-Bob is penalized by Alice bad behavior, to calculate Bob Q1 rewards, we then use the following formula:
+Bob is penalized by Alice's bad behavior. To calculate Bob Q1 rewards, we then use the following formula:
 
 ```text
 Q1_Rewards% = 1 - (1 - MPP) * Level_of_Misconduct_% * Delegator_Penalty;
@@ -486,5 +486,5 @@ Bob Bonus reward
 * Bob was impacted by Alice's behavior but ends net positive.
 * Bob had to make sure Alice was voting enough.
 * DOUGH Holders kept the possibility of exiting the DAO at any time.
-* FLOUR Holders have renounced to the possibility of exiting the DAO by delegating in exchange for staking rewards.
+* FLOUR Holders have renounced the possibility of exiting the DAO by delegating in exchange for staking rewards.
 
