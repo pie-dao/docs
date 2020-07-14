@@ -48,4 +48,5 @@
 * [PieDAO Development Call \#3](development-calls/piedao-development-call-3.md)
 * [PieDAO Development Call \#4](development-calls/piedao-development-call-4.md)
 * [PieDAO Development Call \#5](development-calls/piedao-development-call-5.md)
+* [PieDAO Development Call \#6](development-calls/piedao-development-call-6.md)
 
