@@ -4,7 +4,9 @@
 
 ## Papers
 
-* [PieDAO](papers/piedao.md)
+* [PieDAO - The Asset Allocation DAO](papers/piedao-the-asset-allocation-dao.md)
+* [DAO's Departments with delegated governance](papers/piedao.md)
+* [PIP 11: Phase 0 - Staking and Delegation](papers/pip-11-phase-0-staking-and-delegation.md)
 
 ## Pie DAO
 
