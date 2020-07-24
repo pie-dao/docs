@@ -2,7 +2,7 @@
 description: Proposal for introducing Staking and Delegation.
 ---
 
-# PIP 11: Phase 0 - Staking and Delegation
+# PIP 12: Phase 0 - Staking and Delegation
 
 ## Simple Summary
 
