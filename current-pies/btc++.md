@@ -49,3 +49,16 @@ Each project has different tradeoffs in terms of security, even assuming the ass
 | :--- | :--- |
 | 0.2 | 0 |
 
+## Marketing Info
+
+{% hint style="info" %}
+30.45% BAL Farming Rewards
+{% endhint %}
+
+* [BTC++ is 4th by Adj Liquidity on Balancer Pools](http://localhost:8080/#)
+* [Check BTC++ price on CoinGecko.com](https://www.coingecko.com/en/coins/piedao-btc)
+* [Read More about BTC++ on PieDAO Forum](https://forum.piedao.org/t/btc-btc-on-ethereum-diversified/68)
+* [How to mint BTC++ tutorial on PieDAO Medium Channel](https://medium.com/piedao/how-to-mint-btc-68a762c9a200)
+* [BTC++ Activity on DeFi MarketCap](https://defimarketcap.io/token/0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd)
+* [DeFi Score](http://localhost:8080/#)
+

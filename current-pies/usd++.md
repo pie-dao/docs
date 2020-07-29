@@ -169,3 +169,13 @@ Below you'll find the final allocation by putting the 3 factors together. Quarte
 | TUSD | Trust Token | TRUE | 26.03% | 29.94% | 31.91% | 28.58% |
 | sUSD | Synthetix | TRUE | 2.73% | 5.73% | 4.26% | 3.788% |
 
+## Marketing Info
+
+{% hint style="info" %}
+26.24% BAL Farming Rewards
+{% endhint %}
+
+* [Check USD++ price on CoinGecko.com](https://www.coingecko.com/en/coins/piedao-usd)
+* [Read More about USD++ on PieDAO Forum](https://forum.piedao.org/t/usd-v2-the-stablecoin-basket/116)
+* [How to mint USD++ tutorial on PieDAO Medium Channel](https://medium.com/piedao/how-to-mint-usd-70501ad3db4e)
+
