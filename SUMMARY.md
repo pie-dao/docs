@@ -25,6 +25,9 @@
 
 ## Current Pies
 
+* [DEFI++](current-pies/defi++.md)
+* [DEFI+S](current-pies/defi+s.md)
+* [DEFI+L](current-pies/defi+l.md)
 * [BTC++](current-pies/btc++.md)
 * [USD++](current-pies/usd++.md)
 * [BAL Rewards](current-pies/bal-rewards.md)
