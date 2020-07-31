@@ -172,7 +172,7 @@ Below you'll find the final allocation by putting the 3 factors together. Quarte
 ## Marketing Info
 
 {% hint style="info" %}
-26.24% BAL Farming Rewards
+29.99% BAL Farming Rewards
 {% endhint %}
 
 * [Check USD++ price on CoinGecko.com](https://www.coingecko.com/en/coins/piedao-usd)
