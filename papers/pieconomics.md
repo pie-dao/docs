@@ -18,7 +18,7 @@ description: A synthesis of the Pieconomics - **DRAFT**
 
 This proposal is a synthesis of Pieconomics - a path to the migration of DOUGH to FLOUR.
 
-FLOUR releases act as a catalyst for growth for the PieDAO ecosystem, Pieconomics introduces a  framework which leveraging financial incentives and multilevel governance to prioritize the sustainability of PieDAO and minting of Pies.
+FLOUR releases act as a catalyst for growth of the PieDAO ecosystem, Pieconomics introduces a  framework which leveraging financial incentives and multilevel governance to prioritize the sustainability of PieDAO and minting of Pies.
 
 ## DOUGH Token Migration <a id="aave-token-migration"></a>
 
