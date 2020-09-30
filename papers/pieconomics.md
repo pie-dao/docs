@@ -32,7 +32,7 @@ To start the migration, DOUGH will be used to vote on the governance vote to dep
 
 PieDAO will be able to create Ecosystem Incentives for supplying liquidity to Pies.
 
-![](../.gitbook/assets/how-pies-accrue-value-for-dao-holders-v3.png)
+![](../.gitbook/assets/how-pies-accrue-value-for-dao-holders-v3.1.png)
 
 The liquidity mining program rewards liquidity provision of Pies and introduces a multiplier for the long term LPs in the DOUGH/ETH pool.  
   
