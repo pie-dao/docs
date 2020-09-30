@@ -178,9 +178,9 @@ New elections for Tech Team Alpha is about to open with parameters:
 
 #### Summary Q1
 
-Alice registers as a Team member candidate by staking 10,000 FLOUR tokens. Since Alice staked 10,000 FLOUR, up to 200,000 FLOUR can be delegated towards her candidacy.
+Alice registers as a Team member candidate by staking 10,000 DOUGHv2 tokens. Since Alice staked 10,000 DOUGHv2, up to 200,000 DOUGHv2 can be delegated towards her candidacy.
 
-Bob delegated 200,000 FLOUR to Alice.
+Bob delegated 200,000 DOUGHv2 to Alice.
 
 _End of Q1_
 
@@ -349,5 +349,5 @@ Bob Bonus reward
 * Bob was impacted by Alice's behavior but ends net positive.
 * Bob had to make sure Alice was voting enough.
 * DOUGH Holders kept the possibility of exiting the DAO at any time.
-* FLOUR Holders have renounced the possibility of exiting the DAO by delegating in exchange for staking rewards.
+* DOUGHv2 Holders have renounced the possibility of exiting the DAO by delegating in exchange for staking rewards.
 
