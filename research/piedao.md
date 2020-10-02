@@ -7,6 +7,10 @@ description: >-
 
 # DAO's Departments with delegated governance
 
+## 🚨 UPDATE🚨
+
+FLOUR has been deprecated, the only migration happening is to the new version of DOUGH, know as DOUGHv2. The proposal above is stored unchanged for future reference.
+
 ## Governance
 
 DAOs are designed to disintermediate the hierarchic structure of organizations through their transparency, effectively giving direct control to shareholders. Key features are transparency, the immutability of the organization, and the accessible nature of the platform they are built upon.

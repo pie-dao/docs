@@ -21,6 +21,7 @@
 * [PIP 7: Proposed DAO upgrades PIP](https://forum.piedao.org/t/pip-7-proposed-dao-upgrades/125/4)
 * [PIP 10: PieDAO DeFi++ Index PIP](https://forum.piedao.org/t/pip-10-piedao-defi-index/148/11)
 * [PIP 12: Phase 0 - Staking and Delegation](approved-proposals/pip-11-phase-0-staking-and-delegation.md)
+* [PIP 13: DOUGH v2/ETH Market liquidity](https://forum.piedao.org/t/pip-13-dough-v2-eth-market-liquidity/175)
 
 ## Proposals under discussion
 
@@ -34,7 +35,6 @@
 * [PIP 8: Proposed modification to BTC++ Allocation PIP](https://forum.piedao.org/t/pip-8-proposed-modification-to-btc-allocation/128/3)
 * [PIP 9: Request to whitelist BAL pools](https://forum.piedao.org/t/pip-9-request-to-whitelist-bal-pools/144)
 * [PIP 11: Yield Farming++](https://forum.piedao.org/t/pip-11-yield-farming/152)
-* [PIP 13: DOUGH v2/ETH Market liquidity](https://forum.piedao.org/t/pip-13-dough-v2-eth-market-liquidity/175)
 * [PIP 14: $DOUGH farming proposal](https://forum.piedao.org/t/pip-14-dough-farming-proposal/178)
 
 ## Pie Smart Pools <a id="pie-protocol"></a>

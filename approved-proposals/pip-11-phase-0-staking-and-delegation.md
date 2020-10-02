@@ -4,6 +4,10 @@ description: Proposal for introducing Staking and Delegation.
 
 # PIP 12: Phase 0 - Staking and Delegation
 
+## 🚨 UPDATE🚨
+
+FLOUR has been deprecated, the only migration happening is to the new version of DOUGH, know as DOUGHv2. The proposal above is stored unchanged for future reference.
+
 ## Simple Summary
 
 Proposal for implementing a simplified version of the governance system described in [DAO's Departments with delegated governance](../research/piedao.md) with the introduction of staking and delegation in the governance system, as well as vesting schedule for the unlocking of FLOUR.  
