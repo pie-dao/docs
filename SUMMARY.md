@@ -14,6 +14,7 @@
 * [Calling a Vote](pie-dao/calling-a-vote.md)
 * [Participating in a Vote](pie-dao/participating-in-a-vote.md)
 * [Quitting](pie-dao/rage-quitting.md)
+* [Smart contracts](pie-dao/smart-contracts.md)
 
 ## Approved Proposals
 
