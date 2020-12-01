@@ -1,6 +1,5 @@
 # How to stake DeFi+L ?
 
-A)
 1) Head to [https://pools.piedao.org](https://pools.piedao.org)
 
 2) Mint or Buy DeFi+L
