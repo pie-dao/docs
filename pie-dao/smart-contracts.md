@@ -26,7 +26,7 @@
 | **Name** | Address | Supports |
 | :--- | :--- | :--- |
 | InterestingRecipe | 0xd250C0B0C1d419BFfB2f752344F7Dfc693780Bc0 | DXY |
-|  |  |  |
+| InterestingRecipeV2 | 0x6cb4b8669e23295563d3b34df4a760c0cee993c7 | ALL |
 
 **Ovens**
 
@@ -35,6 +35,8 @@
 | OvenFactoryContract | 0xa5288ac7bc784370b0c03b1bb1ec4d304ed3d0b7 |
 | DXY Oven | 0x1c753af310442dd927d3597be0a24ad36a6833f2 |
 | DEFI++ Oven | 0x1d616dad84dd0b3ce83e5fe518e90617c7ae3915 |
+| OvenFactoryV2 | 0x4f08882c585dd58d7b9a6f2a7523e4a468c3cedb |
+|  |  |
 
 **Farms**
 
