@@ -48,4 +48,13 @@
 | Staked DEFI++ | DEFI++ | 0x59706D38F1452F387563f06b632af7302456fE66 | PieDAO |
 | ReferralRewards | DOUGH/ETH | 0x8314337d2b13e1A61EadF0FD1686b2134D43762F | Balancer |
 | ReferralRewards | DOUGH/ETH | 0xB9a4Bca06F14A982fcD14907D31DFACaDC8ff88E | Balancer |
+| Staked DEFI+S/ETH | DEFI+S/ETH | 0xFcBB61bcd4909bf4AF708F15AAaa905E0978cAfc | Balancer |
+| Staked DEFI+L/ETH | DEFI+L/ETH | 0xb8E59ce1359d80E4834228eDd6a3F560e7534438 | Balancer |
+| Staked BCP | BCP | 0x9EFD60f40e35B3cA7294cC268A35d3e35101BE42 | PieDAO |
+
+### **Misc**
+
+| **Name** | Address |
+| :--- | :--- |
+| eDOUGH \(Escrow Rewards\) | 0x63cbd1858bd79de1a06c3c26462db360b834912d |
 
