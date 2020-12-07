@@ -9,6 +9,7 @@
 | DEFI+S | 0xad6a626ae2b43dcb1b39430ce496d2fa0365ba9c |
 | DEFI+L | 0x78f225869c08d478c34e5f645d07a87d3fe8eb78 |
 | DEFI++ | 0x8d1ce361eb68e9e05573443c407d4a3bed23b033 |
+| BCP | 0xe4f726adc8e89c6a6017f01eada77865db22da14 |
 | PProxiedFactory | 0x28a1474ccdb0353b9c0570b54e669fc4d6ed55a6 |
 | PCappedSmartPool IMPL v1 | 0x6ba679CFfceEe63f1505F975BAdEf5ABfA1ae9EA |
 | PV2SmartPool v2 | 0x706f00ea85a71eb5d7c2ce2ad61dbbe62b616435 |
@@ -35,6 +36,7 @@
 | OvenFactoryContract | 0xa5288ac7bc784370b0c03b1bb1ec4d304ed3d0b7 |
 | DXY Oven | 0x1c753af310442dd927d3597be0a24ad36a6833f2 |
 | DEFI++ Oven | 0x1d616dad84dd0b3ce83e5fe518e90617c7ae3915 |
+| BCP Oven | 0xe3d74df89163a8fa1cba540ff6b339d13d322f61 |
 | OvenFactoryV2 | 0x4f08882c585dd58d7b9a6f2a7523e4a468c3cedb |
 |  |  |
 
