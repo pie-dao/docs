@@ -20,7 +20,7 @@
 | :--- | :--- |
 | DXY | 0x992e9f1d29e2fdb57a9e09a78e122fafe3720cc5 |
 | LendingManager | 0xE0296023dAE7F383Eb162e554e51Cab24CcF3188 |
-|  |  |
+| LendingRegistry | 0xb739dcf499306b191d9d4fa5255a8f20066a6a96 |
 
 **Recipes**
 
