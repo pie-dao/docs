@@ -54,7 +54,15 @@
 | Staked DEFI+L/ETH | DEFI+L/ETH | 0xb8E59ce1359d80E4834228eDd6a3F560e7534438 | Balancer |
 | Staked BCP | BCP | 0x9EFD60f40e35B3cA7294cC268A35d3e35101BE42 | PieDAO |
 
-### **Misc**
+#### Registries
+
+| Name | Address |
+| :--- | :--- |
+| All Pies | 0x412a5d5eC35fF185D6BfF32a367a985e1FB7c296 |
+| ExperiPies | 0x63aafCF1F184A6A682f781c15A6436Ebd7D1C7ed |
+| Smart Pools | 0xE0CBd9db30E15B9ad885D39AecaE138616807753 |
+
+#### Misc
 
 | **Name** | Address |
 | :--- | :--- |
