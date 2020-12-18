@@ -39,6 +39,7 @@
 | DXY Oven | 0x1c753af310442dd927d3597be0a24ad36a6833f2 |
 | DEFI++ Oven | 0x1d616dad84dd0b3ce83e5fe518e90617c7ae3915 |
 | BCP Oven | 0xe3d74df89163a8fa1cba540ff6b339d13d322f61 |
+| YPIE Oven | 0x925f860d1596cc6383c16294d8290f82bde172f7 |
 | OvenFactoryV2 | 0x4f08882c585dd58d7b9a6f2a7523e4a468c3cedb |
 |  |  |
 
