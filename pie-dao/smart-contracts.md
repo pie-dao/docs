@@ -19,7 +19,7 @@
 | **Name** | Address |
 | :--- | :--- |
 | DXY | 0x992e9f1d29e2fdb57a9e09a78e122fafe3720cc5 |
-| LendingManager | 0xE0296023dAE7F383Eb162e554e51Cab24CcF3188 |
+| LendingManagerDXY | 0xE0296023dAE7F383Eb162e554e51Cab24CcF3188 |
 | LendingRegistry | 0xb739dcf499306b191d9d4fa5255a8f20066a6a96 |
 
 **Recipes**
@@ -61,6 +61,24 @@
 | All Pies | 0x412a5d5eC35fF185D6BfF32a367a985e1FB7c296 |
 | ExperiPies | 0x63aafCF1F184A6A682f781c15A6436Ebd7D1C7ed |
 | Smart Pools | 0xE0CBd9db30E15B9ad885D39AecaE138616807753 |
+
+#### Factories
+
+| Name | Address |
+| :--- | :--- |
+| ExperiPieFactory | 0x67Ae9653fdaE44b27B68a0F195E16dF7568cb038 |
+
+#### Implementations and Facets
+
+| Name | Address |
+| :--- | :--- |
+| basketFacet | 0xd128B26da042531d2b9FFb9618324548e1Eff6A7 |
+| erc20Facet | 0xa6969A3f8B4E32204DBC1D83C21443D303b840e5 |
+| callFacet | 0x970bDB1DF3E34FbB2a7943f3D1864fb0066ce674 |
+| diamondCutFacet | 0x44E60F7e33BCd270554995f72a80BB1b17D97Bb4 |
+| diamondLoupeFacet | 0xC9B4C68b3337d2298C1592c9C9e04F6667b58a1B |
+| ownershipFacet | 0x6042D640530dFA73D53fA0135161461b4ece5872 |
+| diamondImplementation | 0x1f863776975A69b6078FdAfAb6298d3E823E0190 |
 
 #### Misc
 
