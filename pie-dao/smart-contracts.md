@@ -21,8 +21,14 @@
 | DXY | 0x992e9f1d29e2fdb57a9e09a78e122fafe3720cc5 |
 | LendingManagerDXY | 0xE0296023dAE7F383Eb162e554e51Cab24CcF3188 |
 | YPIE | 0x17525E4f4Af59fbc29551bC4eCe6AB60Ed49CE31 |
-| LendingManagerYPIE | 0x86edc342b267ac30829caab155786879f8a8eaa9 |
-| LendingRegistry | 0xb739dcf499306b191d9d4fa5255a8f20066a6a96 |
+| LendingManagerYPIE \(deprecated\) | 0x86edc342b267ac30829caab155786879f8a8eaa9 |
+| LendingManagerYPIE | 0x64e4E5FFC4d56633d97eFC7E41f62EfFF9FAb7dC |
+| LendingRegistry \(deprecated\) | 0xb739dcf499306b191d9d4fa5255a8f20066a6a96 |
+| LendingRegistry | 0x9a607dd7Da5fdABf4f53f73a476D99F68172C36D |
+| LendingLogicCompound | 0xa5a10Ea3257252DAe44088A8861e994ce5B9540b |
+| LendingLogicCream | 0x4dbA80706727b54A8F86D7DFFf25D9318D24B1B7 |
+| LendingLogicAave | 0xc1C8432CdCEed10CcC8B22b7349761DA026c8c73 |
+| LendingLogicSushi | 0xf3569aAA10E97E1372a693106f0747c4Cfafd80b |
 
 **Recipes**
 
@@ -89,4 +95,5 @@
 | **Name** | Address |
 | :--- | :--- |
 | eDOUGH \(Escrow Rewards\) | 0x63cbd1858bd79de1a06c3c26462db360b834912d |
+| tokenListUpdater | 0x8AB15153a43183cB4faf9E3B200bda19Ee3c1929 |
 
