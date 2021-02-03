@@ -95,5 +95,5 @@
 | **Name** | Address |
 | :--- | :--- |
 | eDOUGH \(Escrow Rewards\) | 0x63cbd1858bd79de1a06c3c26462db360b834912d |
-| tokenListUpdater | 0x8AB15153a43183cB4faf9E3B200bda19Ee3c1929 |
+| TokenListUpdater | 0xE0e5470E2AFc58F6E8D54C7a4952D029175271AB |
 
