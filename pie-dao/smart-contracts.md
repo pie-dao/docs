@@ -23,6 +23,7 @@
 | YPIE | 0x17525E4f4Af59fbc29551bC4eCe6AB60Ed49CE31 |
 | LendingManagerYPIE \(deprecated\) | 0x86edc342b267ac30829caab155786879f8a8eaa9 |
 | LendingManagerYPIE | 0x64e4E5FFC4d56633d97eFC7E41f62EfFF9FAb7dC |
+| LendingManager DEFI+L | 0x64659f9c7293677d03492bd9881908cb38c57142 |
 | LendingRegistry \(deprecated\) | 0xb739dcf499306b191d9d4fa5255a8f20066a6a96 |
 | LendingRegistry | 0x9a607dd7Da5fdABf4f53f73a476D99F68172C36D |
 | LendingLogicCompound | 0xa5a10Ea3257252DAe44088A8861e994ce5B9540b |
