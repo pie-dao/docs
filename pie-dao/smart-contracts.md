@@ -37,6 +37,7 @@
 | :--- | :--- | :--- |
 | InterestingRecipe | 0xd250C0B0C1d419BFfB2f752344F7Dfc693780Bc0 | DXY |
 | InterestingRecipeV2 | 0x6cb4b8669e23295563d3b34df4a760c0cee993c7 | ALL |
+| InterestingRecipeV3 | 0xE1F9E100cbF4aD6D546b196Af33E1129Dd0866b3 | ALL |
 
 **Ovens**
 
