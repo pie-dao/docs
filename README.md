@@ -1,50 +1,24 @@
 ---
-description: >-
-  Welcome to the PieDAO docs. This is a live document that will be updated as
-  PieDAO evolves. We aim to provide a detailed view of the various goals,
-  software, and products provided through PieDAO.
+description: This document will be updated as PieDAO evolves.
 ---
 
-# Getting Started
+# 👋  Welcome
 
-![](.gitbook/assets/screenshot-from-2020-02-28-16-37-59.png)
+![](.gitbook/assets/screenshot-2021-03-07-at-01.20.04.png)
 
-{% hint style="info" %}
-_This document is not directly linked to or authorized by PieDAO. It is a labor of love, written by one of PieDAO's software contributors and may be inaccurate or out of date._
-{% endhint %}
-
-## What is PieDAO?
-
-PieDAO is an asset allocation decentralized autonomous organization \(DAO\) for governing tokenized portfolio allocations.
-
-The DAO is focused on bringing market accessibility and economic empowerment to anyone with an internet connection through  tokenized asset allocations called PIEs where weights are collectively governed by DAO members, allowing users to frictionlessly get exposure to different allocations.  
   
-Anybody in the public community may support these efforts by completing bounties, making feature requests, or proposing new Pies. DOUGH token holders are the DAO's decision-makers, governing which proposals are accepted.
+PieDAO is a community DAO focused on tokenising automated wealth creation strategies. The DAO's first line of products are [Balancer Smart Pools](technical/untitled.md) \(constant weight index funds\), [PieVaults](technical/pies-pievaults.md) yield-generating tokenized portfolio allocations with productive assets, and The [Oven](pies/oven.md), a system allows users to save gas on expensive transactions by batching them together.
 
-For more about the reasoning behind the creation of PieDAO, check out the Medium article, ['Introducing PieDAO, the asset allocation DAO.'](https://medium.com/piedao/introducing-piedao-the-asset-allocation-dao-1af9eec5ee4)
+### Ecosystem
 
-## What is PieDAO not?
+* \*\*\*\*[**The DAO**](governance/aragon-dao.md)**:** The on-chain governance of PieDAO, managed via an Aragon DAO.
+* \*\*\*\*[**Pie Smart Pools**](technical/untitled.md): The first DAO-governed Index funds managed as AMM pool. 
+* \*\*\*\*[**PieVaults**](technical/pies-pievaults.md): The first crypto index product with productive assets.
+* \*\*\*\*[**The Oven**](pies/oven.md): A system to democratize minting Pies by lowering costs.
 
-**PieDAO is not an investment advisory or money transfer service of any kind**.
+### Community
 
-It does not facilitate investment, operate an exchange, create markets, create smart contracts, escrow, custody, transfer, or otherwise handle user-owned funds, provide investment advice, or control in any way who accesses PieDAO services.
-
-**PieDAO does not host or maintain any software or services.**
-
-Hosting of associated software and services is either done on a decentralized network or by individual members of the community who may or may not choose to make their identity known. All software involved in the operation of PieDAO is open source.
-
-**PieDAO does not manage or propose asset allocations.**
-
-Management of asset allocations utilizing Pie Smart Pools is done by DOUGH holders and deployed by individual users of the Pie smart contracts, not by any single entity or PieDAO itself.
-
-**PieDAO gives no guarantees.**
-
-Asset allocations, smart contracts, and other related software may not be usable, effective, or promote the market value of the DOUGH token or any Pie asset allocation. We invite you NOT TO PARTICIPATE as you might lose all of your money.
-
-## Potential Use Cases
-
-* **Diversified Stable Coin** - Imagine a USD stablecoin backed by a basket of other USD stablecoins. Why? Diversification. If one of these crashes or suffers a fatal flaw, you won't be left with something worthless. [Read more](current-pies/usd++.md).
-* **DeFi Basket** - Blend all the hottest DeFi tokens together and stay protected in case one project fails. Go long on DeFi as a whole, not a single project.
-* **Crypto Basket** - Top performing crypto assets bundled together, so you can have non-custodial exposure to the whole market.
-* **AWP++** - Popularized by Ray Dalio, the All Weather Portfolio is a top performer. Our backtesting shows it performs even better with crypto assets mixed in.
+* \*\*\*\*[**Discord**](https://discord.com/invite/SDnudcu)**:** The main community of PieDAO
+* \*\*\*\*[**Telegram**](https://t.me/piedao): The Telegram Channel
+* \*\*\*\*[**Governance Forum**](http://forum.piedao.org/): Where the magic happen 
 
