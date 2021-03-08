@@ -17,6 +17,9 @@ description: Balanced Crypto Pie
 
 ### Description
 
+![](../../../../.gitbook/assets/bcp_stack_now_farms.png)
+
+  
   
 Balanced Crypto Pie is all you need, it provides complete exposure to what our community believes are the core must-own assets in cryptocurrency, an even 33.33% distribution between $BTC, $ETH and DEFI.  
   
