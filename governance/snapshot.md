@@ -1,6 +1,6 @@
 # Snapshot
 
-The Snapshot voting platform can be found at [https://snapshot.page/\#/piedao](https://snapshot.page/#/piedao). Snapshot uses a custom strategy to allow any representation of DOUGH to have power vote.  
+The Snapshot voting platform can be found at [https://snapshot.page/\#/piedao](https://snapshot.page/#/piedao). Snapshot uses a custom strategy to allow any representation of DOUGH to have the power to vote.  
   
 The voting power of a single user is across:
 

@@ -1,6 +1,6 @@
 # Aragon DAO
 
-PieDAO is based originally based on the Aragon [Dandelion Template](https://github.com/1Hive/dandelion-template).  
+PieDAO is originally based on the Aragon [Dandelion Template](https://github.com/1Hive/dandelion-template).  
 DOUGHv1 was the original non-transferable governance token of the organization.
 
 ### Configuration

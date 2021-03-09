@@ -2,11 +2,11 @@
 
 **What is a Pie?**
 
-**Pies** are products of PieDAO. They are tokenized indices, baskets of assets represented with one easy-to-manage ERC-20 token. All pies are fully backed by the underlying assets, redeemable at any time.  
+**Pies** are the products of PieDAO. They are tokenized indices, baskets of assets represented with one easy-to-manage ERC-20 token. All pies are fully backed by the underlying assets, redeemable at any time.  
   
 Pies can be built either as Balancer Smart Pools or PieVaults.
 
-In the case of Smart Pool, the tokens are used in an automated market maker which maintaining their set percentage allocation as users interact with the liquidity pool. Swap fees from interactions with the pools are gathered for pie holders, constantly growing their balances.  
+In the case of Smart Pools, the tokens are used in an automated market maker which maintains their set percentage allocation as users interact with the liquidity pool. Swap fees from interactions with the pools are gathered for pie holders, constantly growing their balances.  
   
 **What is a PieVault?**  
   

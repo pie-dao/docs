@@ -2,7 +2,7 @@
 
 **Net Asset Valuation \(NAV\)**
 
-As pies are fully backed by the underlying assets they have an intrinsic value equal to the value of the tokens they represent. This is known as the Net Asset Value, and can be seen on the page of each individual pie. Every pie can be minted or redeemed at this value, at any time.  
+As pies are fully backed by the underlying assets, which means they have an intrinsic value equal to the value of the tokens they represent. This is known as the Net Asset Value, and can be seen on the page of each individual pie. Every pie can be minted or redeemed at this value, at any time.  
 
 
 **Market Price**
