@@ -1,5 +1,9 @@
 # Deployed Smart Contracts
 
+
+
+{% tabs %}
+{% tab title="Ethereum Mainnet" %}
 ## Pies
 
 | Name | Address |
@@ -100,4 +104,52 @@
 | :--- | :--- |
 | eDOUGH \(Escrow Rewards\) | 0x63cbd1858bd79de1a06c3c26462db360b834912d |
 | TokenListUpdater | 0xE0e5470E2AFc58F6E8D54C7a4952D029175271AB |
+{% endtab %}
+
+{% tab title="Binance SmartChain" %}
+### PieVaults
+
+| Name | Address |
+| :--- | :--- |
+| KILL | 0xf7aa6eb9d47fb23dcd2474f7ffeb21a31367aef1 |
+
+### Ovens
+
+| Name | Address |
+| :--- | :--- |
+| BNB -&gt; KILL | 0xd7Db1aE8193A12D0ee5e1cf53D7Bcf0f20D09757 |
+
+### Recipes
+
+| Name | Address |
+| :--- | :--- |
+| UniPieRecipe | 0x20A7e98ffC7C14C4858dE47C092043c9CF261e84 |
+
+### Facets and implementations
+
+| Name | Address |
+| :--- | :--- |
+| basketFacet | 0x14Bd0D4aCa50A64741fdf30ec579814786573A10 |
+| erc20Facet | 0x69Ef77d91f2ead2beEa1063A14E34bf7f064d371 |
+| callFacet | 0x7361eA389324abf54518F817D3D4216dF6324529 |
+| diamondCutFacet | 0xe6fF48bFe713F453B7F93b358E3507D8BB9A0CDf |
+| diamondLoupeFacet | 0x60A005Cf49D9cB3845c10DDd8f9F39fF711b6ED0 |
+| ownershipFacet | 0xE9a72236180C7Bee93914D3aED9054Fd2bcb7d29 |
+
+### Factories
+
+| Name | Address |
+| :--- | :--- |
+| PieVault Factory | 0x692B3178A285167DFF5EC64d7B9e6A12A91C2D84 |
+
+### Registries
+
+| Type | Address |
+| :--- | :--- |
+| All Pies | 0xedbecc9535ad9126a12c8edb39b0223bf666e53e |
+| LendingRegistry | 0x44776A2C6368F85044123C79E49f03E914bb9a44 |
+{% endtab %}
+{% endtabs %}
+
+
 
