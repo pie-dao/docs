@@ -32,7 +32,7 @@
 ## Dev Docs <a id="technical"></a>
 
 * [Audits](technical/audits.md)
-* [Architecture](technical/architecture.md)
+* [Oven V2](technical/architecture.md)
 * [Pies \(PieVaults\)](technical/pies-pievaults.md)
 * [Pies \(Smart Pools\)](technical/untitled.md)
 * [Experinator](technical/experinator.md)
