@@ -54,6 +54,7 @@
 | BCP Oven | 0xe3d74df89163a8fa1cba540ff6b339d13d322f61 |
 | YPIE Oven\(Deprecated\) | 0x925f860d1596cc6383c16294d8290f82bde172f7 |
 | YPIE Oven | 0xAedec86DeDe3DEd9562FB00AdA623c0e9bEEb951 |
+| PLAY Oven | 0xb9Eef048dcc5F9CC453029cC2ed21f4a558ad0E8 |
 | OvenFactoryV2\(Deprecated\) | 0x4f08882c585dd58d7b9a6f2a7523e4a468c3cedb |
 | OvenFactoryV2 | 0x99f7bd5d58b01dAb2cd268dB7F4588153Aa978aC |
 
