@@ -11,6 +11,7 @@
   * [Fee Structure](pies/what-is-a-pie/fee-structure.md)
   * [Current PIEs](pies/what-is-a-pie/pies/README.md)
     * [PieVaults](pies/what-is-a-pie/pies/pievaults/README.md)
+      * [PLAY](pies/what-is-a-pie/pies/pievaults/play.md)
       * [DEFI+L](pies/what-is-a-pie/pies/pievaults/defi+l.md)
       * [YPIE](pies/what-is-a-pie/pies/pievaults/ypie.md)
       * [USD++](pies/what-is-a-pie/pies/pievaults/usd++.md)
