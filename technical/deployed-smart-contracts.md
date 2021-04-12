@@ -76,6 +76,7 @@
 | Staked BCP | BCP | 0x9EFD60f40e35B3cA7294cC268A35d3e35101BE42 | PieDAO |
 | Impl 3 week rewards | ​ | 0x02dE1680bf6047e65C9c164c1c55Af8fFe3b4D11 | ​ |
 | Staked YPIE/ETH | YPIE/ETH | 0x3A05D2394F7241e00F4ae90A1f14D9c9c48A1E9B | Uniswap |
+| StakingPools \(Alchemix Fork\) | All | 0x6de77A304609472A4811a0BFD47d8682Aebc29df | All |
 
 #### Registries <a id="registries"></a>
 
