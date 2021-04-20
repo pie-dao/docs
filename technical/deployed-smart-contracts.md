@@ -155,6 +155,31 @@
 | All Pies | 0xedbecc9535ad9126a12c8edb39b0223bf666e53e |
 | LendingRegistry | 0x44776A2C6368F85044123C79E49f03E914bb9a44 |
 {% endtab %}
+
+{% tab title="Görli" %}
+### Pies
+
+| Name | Address |
+| :--- | :--- |
+| RWRD | 0xfb60e8d7740427c630816c30ba1b2bf31bf406f8 |
+
+### Factories
+
+| Name | Address |
+| :--- | :--- |
+| PieFactoryContract | 0xd969d61f2398a8f72b8b288316e3c9b527d166a9 |
+
+### Facets
+
+| Name | Address |
+| :--- | :--- |
+| BasketFacet | 0x2ccB9F503304CbDFFb622a19E7064de1D8F1feEc |
+| ERC20Facet | 0x3fE999d18c650e6CD16A5E0c451b5e9bC95b129E |
+| CallFacet | 0x4a36888eD58804acda9Bb43a35f9F6b87723ae6C |
+| DiamondCutFacet | 0x20527Cc7669E3deEaE85550f7F40AdEeBFA2B85e |
+| DiamondLoupeFacet | 0xe6Bd16d0F0caAfCE5B41EA7373e2dE7054791859 |
+| OwnerShipFacet | 0xc06Ac9f547Ac1a4E8d7C1Cb60056CfC192dE127A |
+{% endtab %}
 {% endtabs %}
 
 
