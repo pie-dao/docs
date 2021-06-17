@@ -110,6 +110,7 @@
 | :--- | :--- |
 | eDOUGH \(Escrow Rewards\) | 0x63cbd1858bd79de1a06c3c26462db360b834912d |
 | TokenListUpdater | 0xE0e5470E2AFc58F6E8D54C7a4952D029175271AB |
+| pie-asset-getter | 0xeDF74D4c543b6c32e9ee9E8bD5fd9e6d5Bd4F546 |
 {% endtab %}
 
 {% tab title="Binance SmartChain" %}
