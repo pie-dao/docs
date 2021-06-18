@@ -181,6 +181,19 @@
 | DiamondLoupeFacet | 0xe6Bd16d0F0caAfCE5B41EA7373e2dE7054791859 |
 | OwnerShipFacet | 0xc06Ac9f547Ac1a4E8d7C1Cb60056CfC192dE127A |
 {% endtab %}
+
+{% tab title="Rinkeby" %}
+### Staking
+
+| Name | Address |
+| :--- | :--- |
+| veDOUGH Implementation | 0xA3f8D0a70C1B2E5DA89e11e96Bf007cB71Ca0596 |
+| veDOUGH Proxy | 0x250B5CC49658Dd9f9369a71d654e5DB3fc87e69C |
+| Staking Implementation | 0xbcfe1ED6E9e933D06685d2aF9CB44378Be94c92D |
+| Staking Proxy | 0xcc798c02C8D207AA309137C387db5195AAB7dDCd |
+| RWRD Token | 0xaf498e2391e7cf7a4c1ed2ea14a8c74136313e09 |
+| Dummy DOUGH | 0x6503e51056c881ebf463207f8e969fa45a1e0747 |
+{% endtab %}
 {% endtabs %}
 
 
