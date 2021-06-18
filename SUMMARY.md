@@ -37,6 +37,7 @@
 * [Pies \(PieVaults\)](technical/pies-pievaults.md)
 * [Pies \(Smart Pools\)](technical/untitled.md)
 * [Experinator](technical/experinator.md)
+* [Staking](technical/staking.md)
 * [Deployed Smart Contracts](technical/deployed-smart-contracts.md)
 * [Updating a Smart Pool Implementation](technical/updating-a-smart-pool-implementation.md)
 * [Tools](technical/tools.md)
