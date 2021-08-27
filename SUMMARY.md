@@ -42,3 +42,9 @@
 * [Updating a Smart Pool Implementation](technical/updating-a-smart-pool-implementation.md)
 * [Tools](technical/tools.md)
 
+## Communication
+
+* [Newsletter](communication/newsletter.md)
+* [Special Events](communication/special-events.md)
+* [Emergency Release](communication/emergency-release.md)
+
