@@ -14,5 +14,3 @@ The following sources will be updated accordingly
 
 ![Emergency Actions Flow](../.gitbook/assets/image.png)
 
-[https://calendar.google.com/calendar/u/0?cid=YWE2YW9xZ21qNDFmYXBpaDNjc2p2MG04ZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ](https://calendar.google.com/calendar/u/0?cid=YWE2YW9xZ21qNDFmYXBpaDNjc2p2MG04ZW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
-
