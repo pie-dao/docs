@@ -41,15 +41,12 @@
 * [Deployed Smart Contracts](technical/deployed-smart-contracts.md)
 * [Updating a Smart Pool Implementation](technical/updating-a-smart-pool-implementation.md)
 * [Tools](technical/tools.md)
+* [Multisigs](technical/multisigs.md)
 
 ## Communication
 
-* [Events Calendar](communication/events-calendar.md)
+* [Calendar](communication/calendar.md)
 * [Newsletter](communication/newsletter.md)
 * [Special Events](communication/special-events.md)
 * [Emergency Release](communication/emergency-release.md)
-
----
-
-* [Calendar](calendar.md)
 
