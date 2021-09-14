@@ -45,8 +45,9 @@
 
 ## Communication
 
-* [Calendar](communication/calendar.md)
 * [Newsletter](communication/newsletter.md)
+* [Community Calls](communication/community-calls.md)
+* [Calendar](communication/calendar.md)
 * [Special Events](communication/special-events.md)
 * [Emergency Release](communication/emergency-release.md)
 
