@@ -4,7 +4,7 @@ description: Information validation flow for the Inside The Bakery publications.
 
 # Newsletter
 
-PieDAO Newsletters are issued every 2 weeks, and posted in Substack under the name of [Inside the Bakery](https://insidethebakery.substack.com/). 
+PieDAO Newsletters are issued every 2 weeks, and posted in Substack under the name of [Inside the Bakery](https://insidethebakery.substack.com/) &lt;- Suscribe
 
 The cover topics related to latest news and announcements, committee reporting debriefing and token performance relevant information. This is a contributor lead effort, so share your love on discord if you like it and help spread the news!
 
