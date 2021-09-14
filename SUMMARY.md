@@ -49,3 +49,7 @@
 * [Special Events](communication/special-events.md)
 * [Emergency Release](communication/emergency-release.md)
 
+---
+
+* [Calendar](calendar.md)
+
