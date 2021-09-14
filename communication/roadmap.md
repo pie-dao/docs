@@ -19,6 +19,6 @@ Since Q3 2021, Roadmaps will be posted on the [Forum ](https://forum.piedao.org)
 
 ### Current Roadmap status
 
-* **Organizational Roadmap:** [Published](https://forum.piedao.org/t/piedao-organizational-roadmap-q3-q4-2021/978)
-* **Innovation Roadmap:** In progress
+* **Organizational Roadmap:** [Published](https://forum.piedao.org/t/piedao-organizational-roadmap-q3-q4-2021/978) \(Q3-Q4 2021\)
+* **Innovation Roadmap:** In progress \(Q4 2021-Q1 2022\)
 
