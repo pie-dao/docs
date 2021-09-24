@@ -14,8 +14,8 @@ Since Q3 2021, Roadmaps will be posted on the [Forum ](https://forum.piedao.org)
 ### Reporting
 
 * **Cadence:** Monthly and delivered in sync with Community Call's
-* **Location:** On the Forum Post ****where published
-* **Format: As an attached PDF**
+* **Location:** [PieDAO \| Roadmap Status Reports](https://piedao.notion.site/2696b3aee98d44bdb987e281669c1d07?v=1f6d99822ce3427eadd77b546342008)
+* **Format:** Online webpage
 
 ### Current Roadmap status
 
