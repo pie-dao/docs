@@ -53,3 +53,8 @@
 * [Roadmap](communication/roadmap.md)
 * [Reports](communication/reports.md)
 
+## Wiki
+
+* [Issue management Portal](wiki/issue-management-portal.md)
+* [Daily Stand-Ups](wiki/daily-stand-ups.md)
+
