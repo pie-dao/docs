@@ -53,8 +53,9 @@
 * [Roadmap](communication/roadmap.md)
 * [Reports](communication/reports.md)
 
-## Wiki
+## Management
 
-* [Issue management Portal](wiki/issue-management-portal.md)
-* [Daily Stand-Ups](wiki/daily-stand-ups.md)
+* [Issue management Portal](management/issue-management-portal.md)
+* [Daily Stand-Ups](management/daily-stand-ups.md)
+* [DAO Member vs Freelancer](management/dao-member-vs-freelancer.md)
 
