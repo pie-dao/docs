@@ -25,6 +25,7 @@
 ## Governance
 
 * [DOUGH](governance/dough.md)
+* [Governance Mining](governance/governance-mining.md)
 * [Pie Improvement Proposals](governance/governance.md)
 * [Snapshot](governance/snapshot.md)
 * [Aragon DAO](governance/aragon-dao.md)

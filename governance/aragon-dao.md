@@ -15,6 +15,11 @@ Following PIP-12, DOUGH started migrating to DOUGHv2 at will, with a rate of 1 D
   
 `Vote weight = (DOUGH+DOUGHv2)`
 
-  
+### PIP-60 Release Impact — October 4th 2021
 
+Following [PIP-60](https://forum.piedao.org/t/pip-60-dough-staking-governance-mining/954) and the introduction of Governance Mining, veDough becomes PieDAO's Governance Token, and voting will be exclusively done through [Snapshot](https://snapshot.org/#/piedao).
+
+`Vote weight = veDough`
+
+More about Governance Mining [here](governance-mining.md).
 

@@ -23,7 +23,7 @@ Any asset with governance power held in a PieVault will be automatically delegat
 | :--- | :--- |
 | DOUGHv2 | Liquid token used in governance |
 | eDOUGH | Escrowed Token earned from liquidity mining |
-|  |  |
+| veDough | Vote-lcked Token used in governance and rewards entitlement |
 
 
 

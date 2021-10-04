@@ -2,16 +2,9 @@
 
 The Snapshot voting platform can be found at [https://snapshot.page/\#/piedao](https://snapshot.page/#/piedao). Snapshot uses a custom strategy to allow any representation of DOUGH to have the power to vote.  
   
-The voting power of a single user is across:
+**The voting power of a single user is weighted by the amount of veDough**
 
-* DOUGHv1
-* DOUGHv2
-* eDOUGH
-* DOUGH in Staked BPTs
-* DOUGH in BPTs
-
-You can see the [implementation here](https://github.com/snapshot-labs/snapshot.js/blob/master/src/strategies/piedao/index.ts).  
-
+You can see the [implementation here](https://github.com/snapshot-labs/snapshot.js/blob/master/src/strategies/piedao/index.ts).
 
 ### Delegation
 
