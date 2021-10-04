@@ -6,11 +6,23 @@ description: Guide to interacting with the staking smart contracts
 
 ### Deposit
 
-TODO
+Only EOAs and whitelisted addresses can call the function `depositByMonths` function on the `SharesTimeLock` contract. A sufficient approval and balance for the `depositToken` specified in the contract is needed. The amount locked and the time for the lock needs to be greater or equal to `minLockAmount` and `minLockDuration` . The deposit can revert if `emergencyUnlockTriggered` is `true`.  
+  
+For the SharesTimeLock address refer to the [deployed contract addresses](deployed-smart-contracts.md).
+
+```text
+function depositByMonths(uint256 amount, uint256 months, address receiver) external;
+```
 
 ### Withdraw
 
-TODO
+Any address is able to call the `withdraw` function on the `SharesTimeLock` contract. The function needs an existing `lockId` as input argument.  
+  
+For the SharesTimeLock address refer to the [deployed contract addresses](deployed-smart-contracts.md).
+
+```text
+function withdraw(uint256 lockId) external;
+```
 
 ### Distribute rewards
 
