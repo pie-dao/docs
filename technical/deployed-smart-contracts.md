@@ -106,11 +106,19 @@
 | ownershipFacet | 0x6042D640530dFA73D53fA0135161461b4ece5872 |
 | diamondImplementation | 0x1f863776975A69b6078FdAfAb6298d3E823E0190 |
 
+#### Dough Staking <a id="misc"></a>
+
+| Name | Address |
+| :--- | :--- |
+| veDOUGHImp | 0x4fB1AFbB9De791E59222c385D87653E67728A321 |
+| timeLockImp | 0x046B9C3A8a02A802FBA7e61054B79E28E0928F01 |
+| veDOUGHProxy | 0xE6136F2e90EeEA7280AE5a0a8e6F48Fb222AF945 |
+| timeLockProxy | 0x6Bd0D8c8aD8D3F1f97810d5Cc57E9296db73DC45 |
+
 #### Misc <a id="misc"></a>
 
 | **Name** | Address |
 | :--- | :--- |
-| eDOUGH \(Escrow Rewards\) | 0x63cbd1858bd79de1a06c3c26462db360b834912d |
 | TokenListUpdater | 0xE0e5470E2AFc58F6E8D54C7a4952D029175271AB |
 | pie-asset-getter | 0xeDF74D4c543b6c32e9ee9E8bD5fd9e6d5Bd4F546 |
 {% endtab %}
@@ -197,6 +205,8 @@
 | Dummy DOUGH | 0x6503e51056c881ebf463207f8e969fa45a1e0747 |
 {% endtab %}
 {% endtabs %}
+
+Dough Staking
 
 
 
