@@ -123,6 +123,7 @@
 | ---------------- | ------------------------------------------ |
 | TokenListUpdater | 0xE0e5470E2AFc58F6E8D54C7a4952D029175271AB |
 | pie-asset-getter | 0xeDF74D4c543b6c32e9ee9E8bD5fd9e6d5Bd4F546 |
+| Incentivizer     | 0x462C984C45d9045A245a86495805B4d973230A1D |
 {% endtab %}
 
 {% tab title="Binance SmartChain" %}
@@ -209,6 +210,4 @@
 | Dummy DOUGH            | 0x6503e51056c881ebf463207f8e969fa45a1e0747 |
 {% endtab %}
 {% endtabs %}
-
-Dough Staking
 
