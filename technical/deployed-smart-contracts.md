@@ -123,7 +123,7 @@
 | ---------------- | ------------------------------------------ |
 | TokenListUpdater | 0xE0e5470E2AFc58F6E8D54C7a4952D029175271AB |
 | pie-asset-getter | 0xeDF74D4c543b6c32e9ee9E8bD5fd9e6d5Bd4F546 |
-| Incentivizer     | 0x462C984C45d9045A245a86495805B4d973230A1D |
+| Incentivizer     | 0x53523e467F59677FC34FE9F1543612D66a188b43 |
 {% endtab %}
 
 {% tab title="Binance SmartChain" %}
