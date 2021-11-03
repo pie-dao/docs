@@ -1,16 +1,10 @@
 # Snapshot
 
-The Snapshot voting platform can be found at [https://snapshot.page/#/piedao](https://snapshot.page/#/piedao). Snapshot uses a custom strategy to allow any representation of DOUGH to have the power to vote.\
+Snapshot provides is an offchain and gasless governance tool used for voting. The Snapshot voting platform can be found at [https://snapshot.page/#/piedao](https://snapshot.page/#/piedao). After [PIP-60](https://snapshot.org/#/piedao.eth/proposal/QmYYo1CWXBtasWCNK1Qgb2XWno7acUzJCkdP6vEA7oNwEE) and the promotion of veDough as the only voting token, a new single-token based Snapshot strategy as been [implemented](https://github.com/pie-dao/snapshot-strategies).\
 \
 **The voting power of a single user is weighted by the amount of veDough**
 
-You can see the [implementation here](https://github.com/snapshot-labs/snapshot.js/blob/master/src/strategies/piedao/index.ts).
-
 ### Delegation
 
-It's possible to delegate your voting power to an address you like, even by using an ENS address!
-
-You can delegate by visiting: [https://snapshot.page/#/delegate](https://snapshot.page/#/delegate)
-
-![](<../.gitbook/assets/Screenshot 2021-03-07 at 02.00.01.png>)
+Delegation is not supported.
 
