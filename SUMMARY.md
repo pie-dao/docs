@@ -3,7 +3,7 @@
 * [👋  Welcome](README.md)
 * [PieDAO](piedao.md)
 
-## Products <a id="pies"></a>
+## Products <a href="pies" id="pies"></a>
 
 * [Pies](pies/what-is-a-pie/README.md)
   * [Overview](pies/what-is-a-pie/overview.md)
@@ -25,18 +25,19 @@
 ## Governance
 
 * [DOUGH](governance/dough.md)
-* [Governance Mining](governance/governance-mining.md)
+* [Governance Mining](governance/governance-mining/README.md)
+  * [KPI Options](governance/governance-mining/kpi-options.md)
 * [Pie Improvement Proposals](governance/governance.md)
 * [Snapshot](governance/snapshot.md)
 * [Aragon DAO](governance/aragon-dao.md)
 * [Initiatives](governance/resources.md)
 
-## Dev Docs <a id="technical"></a>
+## Dev Docs <a href="technical" id="technical"></a>
 
 * [Audits](technical/audits.md)
 * [Oven V2](technical/architecture.md)
-* [Pies \(PieVaults\)](technical/pies-pievaults.md)
-* [Pies \(Smart Pools\)](technical/untitled.md)
+* [Pies (PieVaults)](technical/pies-pievaults.md)
+* [Pies (Smart Pools)](technical/untitled.md)
 * [Experinator](technical/experinator.md)
 * [Staking](technical/staking.md)
 * [Deployed Smart Contracts](technical/deployed-smart-contracts.md)
@@ -59,4 +60,3 @@
 * [Issue management Portal](management/issue-management-portal.md)
 * [Daily Stand-Ups](management/daily-stand-ups.md)
 * [DAO Member vs Freelancer](management/dao-member-vs-freelancer.md)
-
