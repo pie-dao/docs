@@ -25,7 +25,7 @@
 ## Governance
 
 * [DOUGH](governance/dough.md)
-* [Governance Mining](governance/governance-mining/README.md)
+* [Governance Mining](governance/governance-mining.md)
   * [KPI Options](governance/governance-mining/kpi-options.md)
 * [Pie Improvement Proposals](governance/governance.md)
 * [Snapshot](governance/snapshot.md)

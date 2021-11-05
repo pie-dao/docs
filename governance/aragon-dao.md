@@ -21,4 +21,4 @@ Following [PIP-60](https://forum.piedao.org/t/pip-60-dough-staking-governance-mi
 
 `Vote weight = veDough`
 
-More about Governance Mining [here](governance-mining/).
+More about Governance Mining [here](governance-mining.md).

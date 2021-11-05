@@ -115,6 +115,8 @@
 | veDOUGHProxy                 | 0xE6136F2e90EeEA7280AE5a0a8e6F48Fb222AF945 |
 | timeLockProxy                | 0x6Bd0D8c8aD8D3F1f97810d5Cc57E9296db73DC45 |
 | SLICE                        | 0x1083D743A1E53805a95249fEf7310D75029f7Cd6 |
+| MerkleDistributorImp         | 0xBDc96891eD008183838842A93cD713D5ef2635e0 |
+|                              |                                            |
 | DoughStakingDelegateRegistry | 0x9684C4A31246405BC2C8002494268e81D7623b4f |
 
 #### Misc <a href="misc" id="misc"></a>
