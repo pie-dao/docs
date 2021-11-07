@@ -116,7 +116,6 @@
 | timeLockProxy                | 0x6Bd0D8c8aD8D3F1f97810d5Cc57E9296db73DC45 |
 | SLICE                        | 0x1083D743A1E53805a95249fEf7310D75029f7Cd6 |
 | MerkleDistributorImp         | 0xBDc96891eD008183838842A93cD713D5ef2635e0 |
-|                              |                                            |
 | DoughStakingDelegateRegistry | 0x9684C4A31246405BC2C8002494268e81D7623b4f |
 
 #### Misc <a href="misc" id="misc"></a>
@@ -126,6 +125,13 @@
 | TokenListUpdater | 0xE0e5470E2AFc58F6E8D54C7a4952D029175271AB |
 | pie-asset-getter | 0xeDF74D4c543b6c32e9ee9E8bD5fd9e6d5Bd4F546 |
 | Incentivizer     | 0x53523e467F59677FC34FE9F1543612D66a188b43 |
+| eDough           | 0x63cbd1858bd79de1a06c3c26462db360b834912d |
+
+**Dough**
+
+| Name       | Address                                    |
+| ---------- | ------------------------------------------ |
+| DOUGH (v2) | 0xad32a8e6220741182940c5abf610bde99e737b2d |
 {% endtab %}
 
 {% tab title="Binance SmartChain" %}
