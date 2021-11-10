@@ -132,6 +132,13 @@
 | Name       | Address                                    |
 | ---------- | ------------------------------------------ |
 | DOUGH (v2) | 0xad32a8e6220741182940c5abf610bde99e737b2d |
+
+#### KPI Options
+
+| Name                      | Address                                    |
+| ------------------------- | ------------------------------------------ |
+| wDOUGH-KPI Implementation | 0xfCa5Ac595fa783530e8F566fC2d99d8896cB29FD |
+| wDOUGH-KPI Proxy          | 0xC67C620074440C15683acE78c1EfA38A4569969b |
 {% endtab %}
 
 {% tab title="Binance SmartChain" %}
