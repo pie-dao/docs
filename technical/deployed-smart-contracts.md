@@ -126,6 +126,8 @@
 | pie-asset-getter | 0xeDF74D4c543b6c32e9ee9E8bD5fd9e6d5Bd4F546 |
 | Incentivizer     | 0x53523e467F59677FC34FE9F1543612D66a188b43 |
 | eDough           | 0x63cbd1858bd79de1a06c3c26462db360b834912d |
+| eDough Impl v1   | 0xfd3f1b033362b28660944f3ba7758acaa843ac00 |
+| eDough Impl v2   | 0xfCF1aBC45A264D1172AF928ff04D3413bbC11A9f |
 
 **Dough**
 
