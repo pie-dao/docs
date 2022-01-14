@@ -26,4 +26,4 @@ The Pie actively uses the underlying tokens in the index.
 ### History
 
 * ****[**PIP 46: Re-balance DEFI+L to include SUSHI**](https://forum.piedao.org/t/pip-46-re-balance-defi-l-to-include-sushi-and-yass-sub-pie/403)****
-* ****[**PIP-48 DEFI+L Migration To PieVault **](https://forum.piedao.org/t/pip-48-defi-l-migration-to-pievault/542)****
+* ****[**PIP-48 DEFI+L Migration To PieVault** ](https://forum.piedao.org/t/pip-48-defi-l-migration-to-pievault/542)****

@@ -58,6 +58,6 @@ Decisions that require the deployment of the DAO’s treasury funds must take pl
 \
 [Snapshot](https://docs.snapshot.page) allows DOUGH holders to sign a message from their wallet to signal support or opposition to a governance proposal without having to spend any gas on an Ethereum transaction.\
 \
-**View active **[**Snapshot**](https://snapshot.page/#/piedao/)** and **[**Aragon**](https://client.aragon.org/?#/piedao/)** governance proposals.**\
+**View active** [**Snapshot**](https://snapshot.page/#/piedao/) **and** [**Aragon**](https://client.aragon.org/?#/piedao/) **governance proposals.**\
 ****\
-**Learn more about **[**Aragon DAOs**](https://www.placeholder.vc/blog/2020/5/7/aragon-daos)****
+**Learn more about** [**Aragon DAOs**](https://www.placeholder.vc/blog/2020/5/7/aragon-daos)****
