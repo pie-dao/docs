@@ -3,7 +3,7 @@
 | Address                 | 0x8d1ce361eb68e9e05573443c407d4a3bed23b033 |
 | ----------------------- | ------------------------------------------ |
 | Architecture            | Smart Pool                                 |
-| Streaming Fees          | 0.00% _(Note: contains other pies)_        |
+| Streaming Fees          | 0.7% _(Note: contains other pies)_         |
 | AMM                     | ✅                                          |
 | Equal weights           | ✅                                          |
 | Underlying productivity | Only Partial contains DEFI+L               |
