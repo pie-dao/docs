@@ -5,7 +5,7 @@
 | Address                 | 0x78f225869c08d478c34e5f645d07a87d3fe8eb78 |
 | ----------------------- | ------------------------------------------ |
 | Architecture            | PieVault                                   |
-| Streaming Fees          | 0.7%                                       |
+| Streaming Fees          | 1%                                         |
 | AMM                     | ❌                                          |
 | Market-Cap Based        | ✅                                          |
 | Underlying productivity | ✅                                          |
