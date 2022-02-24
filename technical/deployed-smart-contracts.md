@@ -22,14 +22,14 @@
 | ------------------------------- | ------------------------------------------ |
 | DXY                             | 0x992e9f1d29e2fdb57a9e09a78e122fafe3720cc5 |
 | LendingManagerDXY               | 0xE0296023dAE7F383Eb162e554e51Cab24CcF3188 |
-| YPIE                            | 0x17525E4f4Af59fbc29551bC4eCe6AB60Ed49CE31 |
+| YPIE (Deprecated)               | 0x17525E4f4Af59fbc29551bC4eCe6AB60Ed49CE31 |
 | PLAY                            | 0x33e18a092a93ff21ad04746c7da12e35d34dc7c4 |
 | DEFI+L                          | 0x78f225869c08d478c34e5f645d07a87d3fe8eb78 |
 | USD++                           | 0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e |
-| LendingManagerYPIE (deprecated) | 0x86edc342b267ac30829caab155786879f8a8eaa9 |
-| LendingManagerYPIE              | 0x64e4E5FFC4d56633d97eFC7E41f62EfFF9FAb7dC |
+| LendingManagerYPIE (Deprecated) | 0x86edc342b267ac30829caab155786879f8a8eaa9 |
+| LendingManagerYPIE (Deprecated) | 0x64e4E5FFC4d56633d97eFC7E41f62EfFF9FAb7dC |
 | LendingManager DEFI+L           | 0x64659f9c7293677d03492bd9881908cb38c57142 |
-| LendingRegistry (deprecated)    | 0xb739dcf499306b191d9d4fa5255a8f20066a6a96 |
+| LendingRegistry (Deprecated)    | 0xb739dcf499306b191d9d4fa5255a8f20066a6a96 |
 | LendingRegistry                 | 0x9a607dd7Da5fdABf4f53f73a476D99F68172C36D |
 | LendingLogicCompound            | 0xa5a10Ea3257252DAe44088A8861e994ce5B9540b |
 | LendingLogicCream               | 0x4dbA80706727b54A8F86D7DFFf25D9318D24B1B7 |
@@ -55,8 +55,8 @@
 | DXY Oven                  | 0x1c753af310442dd927d3597be0a24ad36a6833f2 |
 | DEFI++ Oven               | 0x1d616dad84dd0b3ce83e5fe518e90617c7ae3915 |
 | BCP Oven                  | 0xe3d74df89163a8fa1cba540ff6b339d13d322f61 |
-| YPIE Oven(Deprecated)     | 0x925f860d1596cc6383c16294d8290f82bde172f7 |
-| YPIE Oven                 | 0xAedec86DeDe3DEd9562FB00AdA623c0e9bEEb951 |
+| YPIE Oven (Deprecated)    | 0x925f860d1596cc6383c16294d8290f82bde172f7 |
+| YPIE Oven (Deprecated)    | 0xAedec86DeDe3DEd9562FB00AdA623c0e9bEEb951 |
 | PLAY Oven                 | 0x0c4Ff8982C66cD29eA7eA96d985f36aE60b85B1C |
 | PLAY OvenV2(Deprecated)   | 0x90Cc6F4ec7Aa0468D2eDb3F627AcD988B14A78b4 |
 | PLAY OvenV2(Deprecated)   | 0xb9Eef048dcc5F9CC453029cC2ed21f4a558ad0E8 |
@@ -65,22 +65,22 @@
 
 **Farms**
 
-| **Name**                     | Pair         | Address                                    | AMM      |
-| ---------------------------- | ------------ | ------------------------------------------ | -------- |
-| ReferralRewards              | DEFI+S / DAI | 0x64964cb69f40A1B56AF76e32Eb5BF2e2E52a747c | Uniswap  |
-| Geyser                       | DEFI+L/ETH   | 0xb3c2b0056627cc1dc148d8fc29f5abdf4dd837bc | Balancer |
-| ReferralRewards              | DEFI+S/ETH   | 0x220f25C2105a65425913FE0CF38e7699E3992B97 | Balancer |
-| Staked DEFI++                | DEFI++       | 0x59706D38F1452F387563f06b632af7302456fE66 | PieDAO   |
-| ReferralRewards              | DOUGH/ETH    | 0x8314337d2b13e1A61EadF0FD1686b2134D43762F | Balancer |
-| Staked DOUGH/ETH             | DOUGH/ETH    | 0xB9a4Bca06F14A982fcD14907D31DFACaDC8ff88E | Balancer |
-| Staked DEFI+S/ETH            | DEFI+S/ETH   | 0xFcBB61bcd4909bf4AF708F15AAaa905E0978cAfc | Balancer |
-| Staked DEFI+L/ETH            | DEFI+L/ETH   | 0xb8E59ce1359d80E4834228eDd6a3F560e7534438 | Balancer |
-| Staked BCP                   | BCP          | 0x9EFD60f40e35B3cA7294cC268A35d3e35101BE42 | PieDAO   |
-| Impl 3 week rewards          | ​            | 0x02dE1680bf6047e65C9c164c1c55Af8fFe3b4D11 | ​        |
-| Staked YPIE/ETH              | YPIE/ETH     | 0x3A05D2394F7241e00F4ae90A1f14D9c9c48A1E9B | Uniswap  |
-| StakingPools (Alchemix Fork) | All          | 0x6de77A304609472A4811a0BFD47d8682Aebc29df | All      |
+| **Name**                      | Pair         | Address                                    | AMM      |
+| ----------------------------- | ------------ | ------------------------------------------ | -------- |
+| ReferralRewards               | DEFI+S / DAI | 0x64964cb69f40A1B56AF76e32Eb5BF2e2E52a747c | Uniswap  |
+| Geyser                        | DEFI+L/ETH   | 0xb3c2b0056627cc1dc148d8fc29f5abdf4dd837bc | Balancer |
+| ReferralRewards               | DEFI+S/ETH   | 0x220f25C2105a65425913FE0CF38e7699E3992B97 | Balancer |
+| Staked DEFI++                 | DEFI++       | 0x59706D38F1452F387563f06b632af7302456fE66 | PieDAO   |
+| ReferralRewards               | DOUGH/ETH    | 0x8314337d2b13e1A61EadF0FD1686b2134D43762F | Balancer |
+| Staked DOUGH/ETH              | DOUGH/ETH    | 0xB9a4Bca06F14A982fcD14907D31DFACaDC8ff88E | Balancer |
+| Staked DEFI+S/ETH             | DEFI+S/ETH   | 0xFcBB61bcd4909bf4AF708F15AAaa905E0978cAfc | Balancer |
+| Staked DEFI+L/ETH             | DEFI+L/ETH   | 0xb8E59ce1359d80E4834228eDd6a3F560e7534438 | Balancer |
+| Staked BCP                    | BCP          | 0x9EFD60f40e35B3cA7294cC268A35d3e35101BE42 | PieDAO   |
+| Impl 3 week rewards           | ​            | 0x02dE1680bf6047e65C9c164c1c55Af8fFe3b4D11 | ​        |
+| Staked YPIE/ETH  (Deprecated) | YPIE/ETH     | 0x3A05D2394F7241e00F4ae90A1f14D9c9c48A1E9B | Uniswap  |
+| StakingPools (Alchemix Fork)  | All          | 0x6de77A304609472A4811a0BFD47d8682Aebc29df | All      |
 
-#### Registries <a href="registries" id="registries"></a>
+#### Registries <a href="#registries" id="registries"></a>
 
 | Name        | Address                                    |
 | ----------- | ------------------------------------------ |
@@ -88,13 +88,13 @@
 | ExperiPies  | 0x63aafCF1F184A6A682f781c15A6436Ebd7D1C7ed |
 | Smart Pools | 0xE0CBd9db30E15B9ad885D39AecaE138616807753 |
 
-#### Factories <a href="factories" id="factories"></a>
+#### Factories <a href="#factories" id="factories"></a>
 
 | Name             | Address                                    |
 | ---------------- | ------------------------------------------ |
 | ExperiPieFactory | 0x67Ae9653fdaE44b27B68a0F195E16dF7568cb038 |
 
-#### Implementations and Facets <a href="implementations-and-facets" id="implementations-and-facets"></a>
+#### Implementations and Facets <a href="#implementations-and-facets" id="implementations-and-facets"></a>
 
 | Name                  | Address                                    |
 | --------------------- | ------------------------------------------ |
@@ -106,7 +106,7 @@
 | ownershipFacet        | 0x6042D640530dFA73D53fA0135161461b4ece5872 |
 | diamondImplementation | 0x1f863776975A69b6078FdAfAb6298d3E823E0190 |
 
-#### Dough Staking <a href="misc" id="misc"></a>
+#### Dough Staking <a href="#misc" id="misc"></a>
 
 | Name                         | Address                                    |
 | ---------------------------- | ------------------------------------------ |
@@ -118,7 +118,7 @@
 | MerkleDistributorImp         | 0xBDc96891eD008183838842A93cD713D5ef2635e0 |
 | DoughStakingDelegateRegistry | 0x9684C4A31246405BC2C8002494268e81D7623b4f |
 
-#### Misc <a href="misc" id="misc"></a>
+#### Misc <a href="#misc" id="misc"></a>
 
 | **Name**         | Address                                    |
 | ---------------- | ------------------------------------------ |

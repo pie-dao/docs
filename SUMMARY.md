@@ -3,23 +3,24 @@
 * [👋  Welcome](README.md)
 * [PieDAO](piedao.md)
 
-## Products <a href="pies" id="pies"></a>
+## Products <a href="#pies" id="pies"></a>
 
 * [Pies](pies/what-is-a-pie/README.md)
   * [Overview](pies/what-is-a-pie/overview.md)
   * [Pricing Pies](pies/what-is-a-pie/pricing-pies.md)
   * [Fee Structure](pies/what-is-a-pie/fee-structure.md)
-  * [Current PIEs](pies/what-is-a-pie/pies/README.md)
+  * [PIEs](pies/what-is-a-pie/pies/README.md)
     * [PieVaults](pies/what-is-a-pie/pies/pievaults/README.md)
       * [PLAY](pies/what-is-a-pie/pies/pievaults/play.md)
       * [DEFI+L](pies/what-is-a-pie/pies/pievaults/defi+l.md)
-      * [YPIE](pies/what-is-a-pie/pies/pievaults/ypie.md)
       * [USD++](pies/what-is-a-pie/pies/pievaults/usd++.md)
     * [Smart Pools](pies/what-is-a-pie/pies/smart-pools/README.md)
       * [BCP](pies/what-is-a-pie/pies/smart-pools/bcp.md)
-      * [DEFI+S](pies/what-is-a-pie/pies/smart-pools/defi+s.md)
       * [DEFI++](pies/what-is-a-pie/pies/smart-pools/defi++.md)
+      * [DEFI+S](pies/what-is-a-pie/pies/smart-pools/defi+s.md)
       * [BTC++](pies/what-is-a-pie/pies/smart-pools/btc++.md)
+    * [Legacy](pies/what-is-a-pie/pies/legacy/README.md)
+      * [YPIE](pies/what-is-a-pie/pies/legacy/ypie.md)
 * [Oven](pies/oven.md)
 
 ## Governance
@@ -32,7 +33,7 @@
 * [Aragon DAO](governance/aragon-dao.md)
 * [Initiatives](governance/resources.md)
 
-## Dev Docs <a href="technical" id="technical"></a>
+## Dev Docs <a href="#technical" id="technical"></a>
 
 * [Audits](technical/audits.md)
 * [Oven V2](technical/architecture.md)

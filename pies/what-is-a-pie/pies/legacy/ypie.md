@@ -1,4 +1,10 @@
+---
+description: Deprecated on February 24th, 2022 as per PIP-71
+---
+
 # YPIE
+
+
 
 | Address                 | 0x17525e4f4af59fbc29551bc4ece6ab60ed49ce31 |
 | ----------------------- | ------------------------------------------ |
