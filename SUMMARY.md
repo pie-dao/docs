@@ -20,7 +20,7 @@
       * [DEFI+S](pies/what-is-a-pie/pies/smart-pools/defi+s.md)
       * [BTC++](pies/what-is-a-pie/pies/smart-pools/btc++.md)
     * [Legacy](pies/what-is-a-pie/pies/legacy/README.md)
-      * [YPIE](pies/what-is-a-pie/pies/legacy/ypie.md)
+      * [YPIE](pies/what-is-a-pie/pies/pievaults/ypie.md)
 * [Oven](pies/oven.md)
 
 ## Governance

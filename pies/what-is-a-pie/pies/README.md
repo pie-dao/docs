@@ -1,10 +1,13 @@
 # PIEs
 
-[PieVaults](pievaults/)
+{% content-ref url="pievaults/" %}
+[pievaults](pievaults/)
+{% endcontent-ref %}
 
-[Smart Pools](smart-pools/)
+{% content-ref url="smart-pools/" %}
+[smart-pools](smart-pools/)
+{% endcontent-ref %}
 
-[Legacy Products](legacy/)
-
-
-
+{% content-ref url="legacy/" %}
+[legacy](legacy/)
+{% endcontent-ref %}
