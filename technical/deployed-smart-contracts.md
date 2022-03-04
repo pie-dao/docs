@@ -25,7 +25,7 @@
 | YPIE (Deprecated)               | 0x17525E4f4Af59fbc29551bC4eCe6AB60Ed49CE31 |
 | PLAY                            | 0x33e18a092a93ff21ad04746c7da12e35d34dc7c4 |
 | DEFI+L                          | 0x78f225869c08d478c34e5f645d07a87d3fe8eb78 |
-| USD++                           | 0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e |
+| USD++ (Deprecated)              | 0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e |
 | LendingManagerYPIE (Deprecated) | 0x86edc342b267ac30829caab155786879f8a8eaa9 |
 | LendingManagerYPIE (Deprecated) | 0x64e4E5FFC4d56633d97eFC7E41f62EfFF9FAb7dC |
 | LendingManager DEFI+L           | 0x64659f9c7293677d03492bd9881908cb38c57142 |

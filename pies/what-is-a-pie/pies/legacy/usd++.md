@@ -1,3 +1,7 @@
+---
+description: Deprecated on March 4th, 2022 as per PIP-71
+---
+
 # USD++
 
 | Address                 | 0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e |
