@@ -17,10 +17,10 @@
       * [BCP](pies/what-is-a-pie/pies/smart-pools/bcp.md)
       * [DEFI++](pies/what-is-a-pie/pies/smart-pools/defi++.md)
       * [DEFI+S](pies/what-is-a-pie/pies/smart-pools/defi+s.md)
-      * [BTC++](pies/what-is-a-pie/pies/smart-pools/btc++.md)
     * [Legacy](pies/what-is-a-pie/pies/legacy/README.md)
       * [USD++](pies/what-is-a-pie/pies/legacy/usd++.md)
       * [YPIE](pies/what-is-a-pie/pies/pievaults/ypie.md)
+      * [BTC++](pies/what-is-a-pie/pies/legacy/btc++.md)
 * [Oven](pies/oven.md)
 
 ## Governance

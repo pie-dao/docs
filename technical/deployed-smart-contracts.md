@@ -8,7 +8,7 @@
 
 | Name                     | Address                                    |
 | ------------------------ | ------------------------------------------ |
-| BTC++                    | 0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd |
+| BTC++ (Deprecated)       | 0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd |
 | DEFI+S                   | 0xad6a626ae2b43dcb1b39430ce496d2fa0365ba9c |
 | DEFI++                   | 0x8d1ce361eb68e9e05573443c407d4a3bed23b033 |
 | BCP                      | 0xe4f726adc8e89c6a6017f01eada77865db22da14 |
