@@ -9,7 +9,7 @@
 | Name                     | Address                                    |
 | ------------------------ | ------------------------------------------ |
 | BTC++ (Deprecated)       | 0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd |
-| DEFI+S                   | 0xad6a626ae2b43dcb1b39430ce496d2fa0365ba9c |
+| DEFI+S (Deprecated)      | 0xad6a626ae2b43dcb1b39430ce496d2fa0365ba9c |
 | DEFI++                   | 0x8d1ce361eb68e9e05573443c407d4a3bed23b033 |
 | BCP                      | 0xe4f726adc8e89c6a6017f01eada77865db22da14 |
 | PProxiedFactory          | 0x28a1474ccdb0353b9c0570b54e669fc4d6ed55a6 |
@@ -24,7 +24,7 @@
 | LendingManagerDXY               | 0xE0296023dAE7F383Eb162e554e51Cab24CcF3188 |
 | YPIE (Deprecated)               | 0x17525E4f4Af59fbc29551bC4eCe6AB60Ed49CE31 |
 | PLAY                            | 0x33e18a092a93ff21ad04746c7da12e35d34dc7c4 |
-| DEFI+L                          | 0x78f225869c08d478c34e5f645d07a87d3fe8eb78 |
+| DEFI+L (Deprecated)             | 0x78f225869c08d478c34e5f645d07a87d3fe8eb78 |
 | USD++ (Deprecated)              | 0x9a48bd0ec040ea4f1d3147c025cd4076a2e71e3e |
 | LendingManagerYPIE (Deprecated) | 0x86edc342b267ac30829caab155786879f8a8eaa9 |
 | LendingManagerYPIE (Deprecated) | 0x64e4E5FFC4d56633d97eFC7E41f62EfFF9FAb7dC |
@@ -65,20 +65,20 @@
 
 **Farms**
 
-| **Name**                      | Pair         | Address                                    | AMM      |
-| ----------------------------- | ------------ | ------------------------------------------ | -------- |
-| ReferralRewards               | DEFI+S / DAI | 0x64964cb69f40A1B56AF76e32Eb5BF2e2E52a747c | Uniswap  |
-| Geyser                        | DEFI+L/ETH   | 0xb3c2b0056627cc1dc148d8fc29f5abdf4dd837bc | Balancer |
-| ReferralRewards               | DEFI+S/ETH   | 0x220f25C2105a65425913FE0CF38e7699E3992B97 | Balancer |
-| Staked DEFI++                 | DEFI++       | 0x59706D38F1452F387563f06b632af7302456fE66 | PieDAO   |
-| ReferralRewards               | DOUGH/ETH    | 0x8314337d2b13e1A61EadF0FD1686b2134D43762F | Balancer |
-| Staked DOUGH/ETH              | DOUGH/ETH    | 0xB9a4Bca06F14A982fcD14907D31DFACaDC8ff88E | Balancer |
-| Staked DEFI+S/ETH             | DEFI+S/ETH   | 0xFcBB61bcd4909bf4AF708F15AAaa905E0978cAfc | Balancer |
-| Staked DEFI+L/ETH             | DEFI+L/ETH   | 0xb8E59ce1359d80E4834228eDd6a3F560e7534438 | Balancer |
-| Staked BCP                    | BCP          | 0x9EFD60f40e35B3cA7294cC268A35d3e35101BE42 | PieDAO   |
-| Impl 3 week rewards           | ​            | 0x02dE1680bf6047e65C9c164c1c55Af8fFe3b4D11 | ​        |
-| Staked YPIE/ETH  (Deprecated) | YPIE/ETH     | 0x3A05D2394F7241e00F4ae90A1f14D9c9c48A1E9B | Uniswap  |
-| StakingPools (Alchemix Fork)  | All          | 0x6de77A304609472A4811a0BFD47d8682Aebc29df | All      |
+| **Name**                                  | Pair         | Address                                    | AMM      |
+| ----------------------------------------- | ------------ | ------------------------------------------ | -------- |
+| ReferralRewards                           | DEFI+S / DAI | 0x64964cb69f40A1B56AF76e32Eb5BF2e2E52a747c | Uniswap  |
+| Geyser                                    | DEFI+L/ETH   | 0xb3c2b0056627cc1dc148d8fc29f5abdf4dd837bc | Balancer |
+| ReferralRewards                           | DEFI+S/ETH   | 0x220f25C2105a65425913FE0CF38e7699E3992B97 | Balancer |
+| Staked DEFI++                             | DEFI++       | 0x59706D38F1452F387563f06b632af7302456fE66 | PieDAO   |
+| ReferralRewards                           | DOUGH/ETH    | 0x8314337d2b13e1A61EadF0FD1686b2134D43762F | Balancer |
+| Staked DOUGH/ETH                          | DOUGH/ETH    | 0xB9a4Bca06F14A982fcD14907D31DFACaDC8ff88E | Balancer |
+| <p>Staked DEFI+S/ETH<br> (Deprecated)</p> | DEFI+S/ETH   | 0xFcBB61bcd4909bf4AF708F15AAaa905E0978cAfc | Balancer |
+| <p>Staked DEFI+L/ETH<br> (Deprecated)</p> | DEFI+L/ETH   | 0xb8E59ce1359d80E4834228eDd6a3F560e7534438 | Balancer |
+| Staked BCP                                | BCP          | 0x9EFD60f40e35B3cA7294cC268A35d3e35101BE42 | PieDAO   |
+| Impl 3 week rewards                       | ​            | 0x02dE1680bf6047e65C9c164c1c55Af8fFe3b4D11 | ​        |
+| Staked YPIE/ETH  (Deprecated)             | YPIE/ETH     | 0x3A05D2394F7241e00F4ae90A1f14D9c9c48A1E9B | Uniswap  |
+| StakingPools (Alchemix Fork)              | All          | 0x6de77A304609472A4811a0BFD47d8682Aebc29df | All      |
 
 #### Registries <a href="#registries" id="registries"></a>
 

@@ -1,3 +1,7 @@
+---
+description: Deprecated on May 23rd, 2022 as per PIP-70
+---
+
 # DEFI+L
 
 ### Summary[ | Link](https://www.piedao.org/#/pie/0x78f225869c08d478c34e5f645d07a87d3fe8eb78) 

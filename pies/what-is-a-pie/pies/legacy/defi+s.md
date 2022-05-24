@@ -1,3 +1,7 @@
+---
+description: Deprecated on May 23rd, 2022 as per PIP-70
+---
+
 # DEFI+S
 
 ### Description

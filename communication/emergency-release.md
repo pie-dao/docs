@@ -8,7 +8,7 @@ If any of PieDAO contracts are exploited putting at risk funds or compromising a
 
 The following sources will be updated accordingly
 
-1. [Inside the Bakery](https://insidethebakery.substack.com) Newsletter release
+1. [Inside the Bakery](https://insidethebakery.substack.com/) Newsletter release
 2. [Medium post](https://medium.com/piedao/how-to-mint-pies-gas-free-with-oven-1d11e902fab8)
 3. PieDAO [Discord ](http://discord.link/PieDAO)channels
 

@@ -20,4 +20,4 @@ PieDAO is a community DAO focused on tokenising automated wealth creation strate
 
 * ****[**Discord**](https://discord.com/invite/SDnudcu)**:** The main community of PieDAO
 * ****[**Telegram**](https://t.me/piedao): The Telegram Channel
-* ****[**Governance Forum**](http://forum.piedao.org): Where the magic happen\
+* ****[**Governance Forum**](http://forum.piedao.org/): Where the magic happen\

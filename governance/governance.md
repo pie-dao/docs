@@ -54,9 +54,9 @@ The first is gas-free voting via Snapshot, which can be used for **DOUGH** holde
 
 Decisions that require the deployment of the DAO’s treasury funds must take place through **Aragon**.\
 \
-[Aragon](https://aragon.org) provides the core infrastructure that enables decentralized organizations to operate.\
+[Aragon](https://aragon.org/) provides the core infrastructure that enables decentralized organizations to operate.\
 \
-[Snapshot](https://docs.snapshot.page) allows DOUGH holders to sign a message from their wallet to signal support or opposition to a governance proposal without having to spend any gas on an Ethereum transaction.\
+[Snapshot](https://docs.snapshot.page/) allows DOUGH holders to sign a message from their wallet to signal support or opposition to a governance proposal without having to spend any gas on an Ethereum transaction.\
 \
 **View active** [**Snapshot**](https://snapshot.page/#/piedao/) **and** [**Aragon**](https://client.aragon.org/?#/piedao/) **governance proposals.**\
 ****\
