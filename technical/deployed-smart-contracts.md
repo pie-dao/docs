@@ -129,6 +129,7 @@
 | eDough           | 0x63cbd1858bd79de1a06c3c26462db360b834912d |
 | eDough Impl v1   | 0xfd3f1b033362b28660944f3ba7758acaa843ac00 |
 | eDough Impl v2   | 0xfCF1aBC45A264D1172AF928ff04D3413bbC11A9f |
+| eDough Impl v3   | 0x89caf40706C8D549D2768c227F8f9a019fE6aA9E |
 
 **Dough**
 
@@ -142,6 +143,13 @@
 | ------------------------- | ------------------------------------------ |
 | wDOUGH-KPI Implementation | 0xfCa5Ac595fa783530e8F566fC2d99d8896cB29FD |
 | wDOUGH-KPI Proxy          | 0xC67C620074440C15683acE78c1EfA38A4569969b |
+
+#### Buyback
+
+| Name           | Address                                    |
+| -------------- | ------------------------------------------ |
+| eDOUGH buyback | 0x44EE9e89EFAE48bc4033437d7FE1807182Ec257A |
+| DOUGH buyback  | 0xf3e82afa0ffa086a96147ce5f2d49f2989d02d13 |
 {% endtab %}
 
 {% tab title="Binance SmartChain" %}
