@@ -19,4 +19,10 @@ description: Multisig wallets used across the organization.
 | -------- | ------------------------------------------ | ---------- |
 | Treasury | 0xaAE464093DB594776AF7823286C2a0bE88ff43c4 | Safe 1.3.0 |
 {% endtab %}
+
+{% tab title="Optimism" %}
+| Name       | Address                                    | Type     |
+| ---------- | ------------------------------------------ | -------- |
+| Tresury-OP | 0xf887fC4EAE57fF4547303481109A0D0AF8459aB7 | 1.3.0+L2 |
+{% endtab %}
 {% endtabs %}
